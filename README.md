@@ -1,9 +1,9 @@
 # Purple_Whales
 This is for the Robotics competition "RoboUAQ 2024", held in Querétaro, México
 
-<p style="text-align: center;">
-  <img src="__assets/compic.jpg" alt="compic" style="width:450px;"/>
-  </p>
+![UAQ Competition](__assets/compic.jpg)
+
+![Logo](__assets/purple_whales.jpg)
 
 ## Team Members
 - Fernando Matute
@@ -14,9 +14,7 @@ This is for the Robotics competition "RoboUAQ 2024", held in Querétaro, México
 
 - Ricardo Navarro
 
-### Colaboradores
+## Colaborators
 - Sebastian
 
 - Tomas
-
-## Category
