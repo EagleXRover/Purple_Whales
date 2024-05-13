@@ -1,0 +1,212 @@
+[0.025s] Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/ackermann_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/ackermann_msgs
+[0.039s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.295s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.299s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.931s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.910s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.911s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.145s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.145s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.145s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.145s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.174s] -- Found PythonExtra: .so  
+[3.303s] -- Added test 'lint_cmake' to check CMake code style
+[3.304s] -- Added test 'xmllint' to check XML markup files
+[3.310s] -- Configuring done
+[3.342s] -- Generating done
+[3.344s] -- Build files have been written to: /home/paolo/purple_whales_ws/build/ackermann_msgs
+[3.362s] Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/ackermann_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/ackermann_msgs
+[3.367s] Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/ackermann_msgs -- -j20 -l20
+[3.410s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.423s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.433s] [  6%] Built target ament_cmake_python_copy_ackermann_msgs
+[3.696s] running egg_info
+[3.698s] creating ackermann_msgs.egg-info
+[3.699s] writing ackermann_msgs.egg-info/PKG-INFO
+[3.699s] writing dependency_links to ackermann_msgs.egg-info/dependency_links.txt
+[3.699s] writing top-level names to ackermann_msgs.egg-info/top_level.txt
+[3.700s] writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[3.706s] reading manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[3.706s] writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[3.766s] [  6%] Built target ackermann_msgs__cpp
+[3.777s] [ 12%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_generator_c.dir/rosidl_generator_c/ackermann_msgs/msg/detail/ackermann_message__functions.c.o[0m
+[3.777s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.777s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.777s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.783s] [ 19%] Built target ament_cmake_python_build_ackermann_msgs_egg
+[3.881s] [ 22%] [32m[1mLinking C shared library libackermann_msgs__rosidl_generator_c.so[0m
+[4.106s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ackermann_msgs/msg/ackermann_message__type_support.cpp.o[0m
+[4.132s] [ 29%] [32mBuilding CXX object CMakeFiles/ackermann_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ackermann_msgs/msg/detail/dds_fastrtps/ackermann_message__type_support.cpp.o[0m
+[4.151s] [ 29%] Built target ackermann_msgs__rosidl_generator_c
+[4.159s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.160s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.160s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.175s] [ 41%] [32mBuilding CXX object CMakeFiles/ackermann_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ackermann_msgs/msg/detail/ackermann_message__type_support.cpp.o[0m
+[4.527s] [ 45%] [32mBuilding CXX object CMakeFiles/ackermann_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ackermann_msgs/msg/ackermann_message__type_support.cpp.o[0m
+[4.573s] [ 51%] [32mBuilding CXX object CMakeFiles/ackermann_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ackermann_msgs/msg/detail/ackermann_message__type_support_c.cpp.o[0m
+[4.573s] [ 51%] [32m[1mLinking CXX shared library libackermann_msgs__rosidl_typesupport_c.so[0m
+[4.617s] [ 54%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ackermann_msgs/msg/detail/ackermann_message__type_support.c.o[0m
+[4.636s] [ 58%] [32m[1mLinking CXX shared library libackermann_msgs__rosidl_typesupport_cpp.so[0m
+[4.664s] [ 61%] [32m[1mLinking C shared library libackermann_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.842s] [ 64%] [32m[1mLinking CXX shared library libackermann_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.846s] [ 67%] [32m[1mLinking CXX shared library libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.888s] [ 67%] Built target ackermann_msgs__rosidl_typesupport_c
+[4.945s] [ 67%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[4.959s] [ 67%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[5.042s] [ 70%] [32m[1mLinking CXX shared library libackermann_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.055s] [ 70%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[5.144s] [ 70%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[5.362s] [ 70%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[5.385s] [ 70%] Built target ackermann_msgs
+[5.409s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.729s] [ 74%] Built target ackermann_msgs__py
+[5.753s] [ 77%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_generator_py.dir/rosidl_generator_py/ackermann_msgs/msg/_ackermann_message_s.c.o[0m
+[5.954s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/ackermann_msgs/libackermann_msgs__rosidl_generator_py.so[0m
+[6.202s] [ 80%] Built target ackermann_msgs__rosidl_generator_py
+[6.224s] [ 90%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.224s] [ 90%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.224s] [ 90%] [32mBuilding C object CMakeFiles/ackermann_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.330s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.496s] [100%] Built target ackermann_msgs__rosidl_typesupport_c__pyext
+[6.496s] [100%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[6.496s] [100%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.506s] Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/ackermann_msgs -- -j20 -l20
+[6.566s] Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/ackermann_msgs
+[6.572s] -- Install configuration: ""
+[6.572s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs
+[6.572s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__struct.h
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__type_support.h
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__functions.h
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__functions.c
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_message.h
+[6.573s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.574s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh
+[6.574s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv
+[6.574s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so
+[6.575s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so" to ""
+[6.575s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.575s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.575s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.575s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__rosidl_typesupport_fastrtps_c.h
+[6.576s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.576s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so
+[6.576s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.576s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.576s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.576s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.576s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__type_support.c
+[6.576s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__rosidl_typesupport_introspection_c.h
+[6.577s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.577s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so
+[6.577s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.577s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so
+[6.577s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so" to ""
+[6.577s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.577s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.577s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.577s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__traits.hpp
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__builder.hpp
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__struct.hpp
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_message.hpp
+[6.578s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.578s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.578s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__rosidl_typesupport_fastrtps_cpp.hpp
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/dds_fastrtps
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.578s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.578s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.579s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[6.579s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[6.580s] -- Up-to-date: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__rosidl_typesupport_introspection_cpp.hpp
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_message__type_support.cpp
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so
+[6.580s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so
+[6.580s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so" to ""
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh
+[6.580s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-0.0.0-py3.10.egg-info
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/libackermann_msgs__rosidl_generator_py.so
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/__init__.py
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_message_s.c
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_message.py
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/__init__.py
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_c.c
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.581s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.620s] Listing '/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs'...
+[6.620s] Compiling '/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/__init__.py'...
+[6.620s] Listing '/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg'...
+[6.620s] Compiling '/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/__init__.py'...
+[6.621s] Compiling '/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_message.py'...
+[6.627s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.627s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.627s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.627s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.628s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.628s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.628s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_py.so
+[6.628s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_py.so" to ""
+[6.628s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannMessage.idl
+[6.628s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannMessage.msg
+[6.629s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs
+[6.629s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs
+[6.629s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh
+[6.629s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport.cmake
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.630s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cppExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.631s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.632s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake
+[6.633s] -- Installing: /home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.xml
+[6.636s] Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/ackermann_msgs

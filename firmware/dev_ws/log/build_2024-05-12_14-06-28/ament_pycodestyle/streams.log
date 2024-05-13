@@ -1,0 +1,41 @@
+[1.774s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pycodestyle': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data
+[2.011s] running egg_info
+[2.013s] creating ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info
+[2.013s] writing ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/PKG-INFO
+[2.014s] writing dependency_links to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/dependency_links.txt
+[2.014s] writing entry points to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/entry_points.txt
+[2.014s] writing requirements to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/requires.txt
+[2.015s] writing top-level names to ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/top_level.txt
+[2.015s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[2.017s] reading manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[2.019s] writing manifest file '../../../build/ament_pycodestyle/ament_pycodestyle.egg-info/SOURCES.txt'
+[2.019s] running build
+[2.019s] running build_py
+[2.019s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build
+[2.020s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib
+[2.020s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[2.020s] copying ament_pycodestyle/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[2.020s] copying ament_pycodestyle/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle
+[2.021s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[2.021s] copying ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration
+[2.021s] running install
+[2.022s] running install_lib
+[2.025s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[2.025s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[2.025s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[2.026s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/configuration/ament_pycodestyle.ini -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/configuration
+[2.026s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build/lib/ament_pycodestyle/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle
+[2.028s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/main.py to main.cpython-310.pyc
+[2.033s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle/__init__.py to __init__.cpython-310.pyc
+[2.033s] running install_data
+[2.033s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_pycodestyle
+[2.033s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index
+[2.033s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index
+[2.033s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[2.033s] copying resource/ament_pycodestyle -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[2.033s] running install_egg_info
+[2.036s] Copying ../../../build/ament_pycodestyle/ament_pycodestyle.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages/ament_pycodestyle-0.12.10-py3.10.egg-info
+[2.037s] running install_scripts
+[2.079s] Installing ament_pycodestyle script to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/bin
+[2.080s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/install.log'
+[2.198s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pycodestyle' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pycodestyle build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pycodestyle/install.log --single-version-externally-managed install_data

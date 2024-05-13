@@ -1,0 +1,37 @@
+[1.327s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data
+[1.639s] running egg_info
+[1.640s] creating ../../../build/ament_pyflakes/ament_pyflakes.egg-info
+[1.641s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[1.643s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[1.643s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[1.643s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[1.643s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[1.643s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[1.649s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[1.649s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[1.649s] running build
+[1.650s] running build_py
+[1.650s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build
+[1.653s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib
+[1.653s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[1.660s] copying ament_pyflakes/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[1.669s] copying ament_pyflakes/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[1.669s] running install
+[1.669s] running install_lib
+[1.669s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[1.669s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[1.670s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes
+[1.674s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/main.py to main.cpython-310.pyc
+[1.677s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes/__init__.py to __init__.cpython-310.pyc
+[1.683s] running install_data
+[1.695s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_pyflakes
+[1.696s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index
+[1.696s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index
+[1.696s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[1.696s] copying resource/ament_pyflakes -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[1.696s] running install_egg_info
+[1.698s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages/ament_pyflakes-0.12.10-py3.10.egg-info
+[1.698s] running install_scripts
+[1.732s] Installing ament_pyflakes script to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/bin
+[1.732s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/install.log'
+[1.910s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data

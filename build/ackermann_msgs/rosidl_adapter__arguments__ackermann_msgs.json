@@ -1,0 +1,6 @@
+{
+  "package_name": "ackermann_msgs",
+  "non_idl_tuples": [
+    "/home/paolo/purple_whales_ws/src/ackermann_msgs:msg/AckermannMessage.msg"
+  ]
+}

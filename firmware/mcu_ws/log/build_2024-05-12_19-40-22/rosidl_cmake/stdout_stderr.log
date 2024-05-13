@@ -1,0 +1,78 @@
+gmake[4]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/cmake -S/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake -B/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/paolo/purple_whales_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+-- Found ament_cmake: 1.3.8 (/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake
+/usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[5]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir/depend
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir/DependInfo.cmake --color=
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir/build.make CMakeFiles/ament_cmake_python_copy_rosidl_cmake.dir/build
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/cmake -E copy_directory /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/ament_cmake_python/rosidl_cmake/rosidl_cmake
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+Built target ament_cmake_python_copy_rosidl_cmake
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir/depend
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir/DependInfo.cmake --color=
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/gmake  -f CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir/build.make CMakeFiles/ament_cmake_python_build_rosidl_cmake_egg.dir/build
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/ament_cmake_python/rosidl_cmake && /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python3 setup.py egg_info
+running egg_info
+writing rosidl_cmake.egg-info/PKG-INFO
+writing dependency_links to rosidl_cmake.egg-info/dependency_links.txt
+writing top-level names to rosidl_cmake.egg-info/top_level.txt
+reading manifest file 'rosidl_cmake.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_cmake.egg-info/SOURCES.txt'
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+Built target ament_cmake_python_build_rosidl_cmake_egg
+gmake[5]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles 0
+gmake[4]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cmake'
+-- Install configuration: "Debug"
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/pythonpath.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/pythonpath.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake-3.1.5-py3.10.egg-info
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake-3.1.5-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake-3.1.5-py3.10.egg-info/top_level.txt
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake-3.1.5-py3.10.egg-info/PKG-INFO
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake-3.1.5-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake/__init__.py
+Listing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cmake'...
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/path.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/path.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.bash
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.sh
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.zsh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.dsv
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/package.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmakeConfig.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmakeConfig-version.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/package.xml
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_package_hook.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake.in
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake.in
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/string_camel_case_to_lower_case_underscore.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_export_typesupport_libraries.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_export_typesupport_targets.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries_package_hook.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets_package_hook.cmake

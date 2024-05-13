@@ -1,0 +1,8 @@
+{
+  "package_name": "actionlib_msgs",
+  "non_idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalID.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalStatus.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalStatusArray.msg"
+  ]
+}

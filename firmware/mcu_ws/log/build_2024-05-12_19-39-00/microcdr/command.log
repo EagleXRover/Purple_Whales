@@ -1,0 +1,4 @@
+Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr -- -j20 -l20
+Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr -- -j20 -l20
+Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr
+Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr

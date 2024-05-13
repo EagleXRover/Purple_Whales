@@ -1,0 +1,6 @@
+Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs
+Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs
+Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs
+Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs

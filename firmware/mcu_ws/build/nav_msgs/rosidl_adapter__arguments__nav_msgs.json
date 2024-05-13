@@ -1,0 +1,14 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/LoadMap.srv",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

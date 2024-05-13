@@ -1,0 +1,52 @@
+[0.614s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/paolo/purple_whales_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor
+[1.198s] -- Configuring done
+[1.199s] -- Generating done
+[1.199s] -- Build files have been written to: /home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor
+[1.200s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/paolo/purple_whales_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor
+[1.205s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor -- -j20 -l20
+[1.262s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor -- -j20 -l20
+[1.303s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor
+[1.314s] -- Install configuration: ""
+[1.315s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/cmake/gtest_vendorConfig.cmake
+[1.315s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/share/gtest_vendor/package.xml
+[1.315s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/CMakeLists.txt
+[1.315s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest
+[1.316s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-typed-test.h
+[1.316s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal
+[1.316s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port.h
+[1.316s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-filepath.h
+[1.316s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-string.h
+[1.317s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h.pump
+[1.317s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-internal.h
+[1.317s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-param-util.h
+[1.318s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-death-test-internal.h
+[1.318s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-port.h
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest-printers.h
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/gtest.h
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/custom/README.md
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-port-arch.h
+[1.319s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/internal/gtest-type-util.h
+[1.320s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-message.h
+[1.320s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_prod.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest_pred_impl.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-test-part.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-printers.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-matchers.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-death-test.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-spi.h
+[1.321s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest-param-test.h
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/include/gtest/gtest.h
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-printers.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-matchers.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-typed-test.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-internal-inl.h
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-port.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest_main.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-test-part.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest.cc
+[1.322s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc
+[1.323s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-death-test.cc
+[1.323s] -- Installing: /home/paolo/purple_whales_ws/firmware/dev_ws/install/gtest_vendor/src/gtest_vendor/src/gtest-filepath.cc
+[1.328s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/dev_ws/build/gtest_vendor

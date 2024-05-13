@@ -1,0 +1,24 @@
+running egg_info
+writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2trace/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+copying ros2trace/command/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/command/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/api/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ros2trace
+copying resource/ros2trace -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/ros2trace/ros2trace.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/install.log'

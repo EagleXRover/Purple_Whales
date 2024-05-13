@@ -1,0 +1,45 @@
+[1.642s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/install.log --single-version-externally-managed install_data
+[1.999s] running egg_info
+[2.001s] creating ../../../build/tracetools_launch/tracetools_launch.egg-info
+[2.008s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[2.009s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[2.009s] writing entry points to ../../../build/tracetools_launch/tracetools_launch.egg-info/entry_points.txt
+[2.009s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[2.010s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[2.010s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[2.032s] reading manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[2.034s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[2.035s] running build
+[2.035s] running build_py
+[2.035s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build
+[2.035s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib
+[2.038s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[2.041s] copying tracetools_launch/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[2.041s] copying tracetools_launch/action.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[2.042s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[2.045s] copying tracetools_launch/actions/ld_preload.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[2.046s] copying tracetools_launch/actions/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[2.046s] running install
+[2.048s] running install_lib
+[2.059s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[2.059s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[2.060s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/ld_preload.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[2.060s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[2.061s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[2.061s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/action.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[2.061s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions/ld_preload.py to ld_preload.cpython-310.pyc
+[2.063s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions/__init__.py to __init__.cpython-310.pyc
+[2.063s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/__init__.py to __init__.cpython-310.pyc
+[2.063s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/action.py to action.cpython-310.pyc
+[2.067s] running install_data
+[2.067s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_launch
+[2.067s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[2.068s] copying launch/example.launch.yaml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[2.069s] copying launch/example.launch.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[2.069s] copying launch/example.launch.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[2.069s] copying resource/tracetools_launch -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.069s] running install_egg_info
+[2.081s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch-4.1.1-py3.10.egg-info
+[2.083s] running install_scripts
+[2.170s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/install.log'
+[2.341s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_launch/install.log --single-version-externally-managed install_data

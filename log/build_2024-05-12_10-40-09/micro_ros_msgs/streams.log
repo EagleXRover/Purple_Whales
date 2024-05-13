@@ -1,0 +1,283 @@
+[0.008s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs
+[0.014s] Not searching for unused variables given on the command line.
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.980s] -- The CXX compiler identification is GNU 11.4.0
+[1.629s] -- Detecting C compiler ABI info
+[1.829s] -- Detecting C compiler ABI info - done
+[1.835s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.836s] -- Detecting C compile features
+[1.836s] -- Detecting C compile features - done
+[1.838s] -- Detecting CXX compiler ABI info
+[2.063s] -- Detecting CXX compiler ABI info - done
+[2.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.070s] -- Detecting CXX compile features
+[2.070s] -- Detecting CXX compile features - done
+[2.073s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.226s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.325s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.686s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.975s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.653s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.656s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.306s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.306s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.306s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.306s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.327s] -- Found PythonExtra: .so  
+[4.422s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.426s] -- Added test 'lint_cmake' to check CMake code style
+[4.431s] -- Added test 'xmllint' to check XML markup files
+[4.442s] -- Configuring done
+[4.471s] -- Generating done
+[4.474s] -- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_msgs
+[4.478s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs
+[4.480s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+[4.513s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.524s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.537s] [  4%] Built target ament_cmake_python_copy_micro_ros_msgs
+[4.758s] running egg_info
+[4.758s] creating micro_ros_msgs.egg-info
+[4.758s] writing micro_ros_msgs.egg-info/PKG-INFO
+[4.758s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[4.758s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[4.759s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[4.760s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[4.761s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[4.813s] [  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[4.917s] [  4%] Built target micro_ros_msgs__cpp
+[4.924s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.925s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.925s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.938s] [ 17%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[4.938s] [ 17%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[4.939s] [ 17%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[5.029s] [ 19%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[5.292s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[5.293s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[5.293s] [ 36%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[5.293s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[5.296s] [ 38%] Built target micro_ros_msgs__rosidl_generator_c
+[5.302s] [ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.302s] [ 42%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.307s] [ 44%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.764s] [ 48%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[5.764s] [ 48%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[5.765s] [ 51%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[5.793s] [ 53%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[5.810s] [ 55%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[5.814s] [ 57%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[5.814s] [ 59%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[5.815s] [ 61%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[5.841s] [ 63%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[5.841s] [ 68%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[5.842s] [ 68%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[5.867s] [ 70%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.073s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[6.085s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_c
+[6.098s] [ 72%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.151s] [ 72%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[6.197s] [ 74%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.321s] [ 76%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.401s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[6.464s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[6.581s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[6.604s] [ 76%] Built target micro_ros_msgs
+[6.615s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.050s] [ 78%] Built target micro_ros_msgs__py
+[7.066s] [ 82%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[7.066s] [ 82%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[7.066s] [ 85%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[7.217s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so[0m
+[7.405s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[7.422s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.422s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.422s] [ 93%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.522s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.522s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.524s] [100%] [32m[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.656s] [100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[7.656s] [100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[7.695s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[7.704s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+[7.773s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs
+[7.778s] -- Install configuration: ""
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[7.779s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[7.780s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[7.781s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[7.782s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[7.782s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[7.782s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.782s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.783s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.783s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[7.783s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[7.783s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[7.783s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.783s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[7.783s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.784s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.784s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.784s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.784s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[7.785s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.786s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[7.786s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.786s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[7.786s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[7.786s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.787s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.787s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[7.787s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.787s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[7.787s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[7.787s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[7.788s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.788s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.788s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[7.788s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[7.789s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[7.789s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.789s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.789s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.789s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[7.790s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[7.790s] -- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[7.790s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[7.790s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[7.790s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[7.791s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[7.792s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.793s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.830s] Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[7.830s] Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...
+[7.830s] Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[7.830s] Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...
+[7.830s] Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...
+[7.830s] Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...
+[7.830s] Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...
+[7.844s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.844s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.844s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.844s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.844s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.844s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.844s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[7.845s] -- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[7.845s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[7.846s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.847s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.848s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.849s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[7.849s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[7.849s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[7.850s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs

@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001424] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001769] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001828] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001870] (-) JobUnselected: {'identifier': 'uaq_robot'}
+[0.003001] (-) EventReactorShutdown: {}

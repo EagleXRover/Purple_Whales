@@ -1,0 +1,210 @@
+[0.020s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_setup
+[0.361s] -- The C compiler identification is GNU 11.4.0
+[1.356s] -- The CXX compiler identification is GNU 11.4.0
+[1.928s] -- Detecting C compiler ABI info
+[2.161s] -- Detecting C compiler ABI info - done
+[2.166s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.167s] -- Detecting C compile features
+[2.168s] -- Detecting C compile features - done
+[2.172s] -- Detecting CXX compiler ABI info
+[2.361s] -- Detecting CXX compiler ABI info - done
+[2.365s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.365s] -- Detecting CXX compile features
+[2.365s] -- Detecting CXX compile features - done
+[2.371s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.532s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.666s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.777s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.787s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.790s] -- Added test 'lint_cmake' to check CMake code style
+[2.792s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.797s] -- Added test 'xmllint' to check XML markup files
+[2.800s] -- Configuring done
+[2.805s] -- Generating done
+[2.806s] -- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_setup
+[2.810s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_setup
+[2.810s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_setup -- -j20 -l20
+[2.844s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_setup -- -j20 -l20
+[2.874s] Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_setup
+[2.877s] -- Install configuration: ""
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.878s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.879s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.880s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.881s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.882s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/utils.sh
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic
+[2.883s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[2.884s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.885s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[2.886s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.887s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.888s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.889s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.890s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.891s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.892s] -- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.895s] Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_setup

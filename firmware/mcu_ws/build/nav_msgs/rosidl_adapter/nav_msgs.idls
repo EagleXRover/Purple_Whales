@@ -1,0 +1,9 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

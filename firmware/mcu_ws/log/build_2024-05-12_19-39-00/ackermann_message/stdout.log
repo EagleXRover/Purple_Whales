@@ -1,0 +1,4 @@
+gmake[4]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ackermann_message'
+/usr/bin/cmake -S/home/paolo/purple_whales_ws/firmware/mcu_ws/ackermann_msg -B/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ackermann_message --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake: build system dependency is missing
+gmake[4]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ackermann_message'

@@ -1,0 +1,8 @@
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/ament_cmake_pytest_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_pytest/CMakeFiles/install/local.dir

@@ -1,0 +1,10 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/rcl_action_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/rcl_action.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_action/CMakeFiles/install/strip.dir

@@ -1,0 +1,124 @@
+[0.106s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client -- -j20 -l20
+[0.159s] gmake[4]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.160s] /usr/bin/cmake -S/home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client -B/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client --check-build-system CMakeFiles/Makefile.cmake 0
+[0.161s] Re-run cmake file: Makefile older than: /home/paolo/purple_whales_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+[0.161s] -- Configuring done
+[0.167s] -- Generating done
+[0.168s] -- Build files have been written to: /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client
+[0.172s] /usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client//CMakeFiles/progress.marks
+[0.191s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.193s] gmake[5]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.193s] /usr/bin/gmake  -f CMakeFiles/microxrcedds_client.dir/build.make CMakeFiles/microxrcedds_client.dir/depend
+[0.209s] gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.209s] cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client /home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/DependInfo.cmake --color=
+[0.209s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.210s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.210s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.210s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.211s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.211s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.211s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.211s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.211s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.212s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.212s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.212s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.212s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.212s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.213s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.214s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.214s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.214s] Dependencies file "CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles/microxrcedds_client.dir/compiler_depend.internal".
+[0.214s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_client[0m
+[0.214s] gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.215s] /usr/bin/gmake  -f CMakeFiles/microxrcedds_client.dir/build.make CMakeFiles/microxrcedds_client.dir/build
+[0.215s] gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.215s] gmake[6]: Nothing to be done for 'CMakeFiles/microxrcedds_client.dir/build'.
+[0.215s] gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.226s] [100%] Built target microxrcedds_client
+[0.227s] gmake[5]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.227s] /usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client/CMakeFiles 0
+[0.245s] gmake[4]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client'
+[0.273s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client -- -j20 -l20
+[0.390s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client
+[0.400s] -- Install configuration: "Debug"
+[0.401s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/libmicroxrcedds_client.a
+[0.401s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client
+[0.402s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/transport.h
+[0.402s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile
+[0.402s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/multithread
+[0.405s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/multithread/multithread.h
+[0.408s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/discovery
+[0.408s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/discovery/discovery.h
+[0.408s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport
+[0.408s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing
+[0.409s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[0.409s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip
+[0.409s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/ip.h
+[0.410s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[0.411s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[0.412s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp
+[0.412s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[0.412s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[0.413s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[0.413s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[0.413s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[0.413s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[0.413s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can
+[0.414s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can/can_transport.h
+[0.414s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/can/can_transport_posix.h
+[0.415s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom
+[0.415s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/custom/custom_transport.h
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport.h
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/type
+[0.416s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/type/xrce_types.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/communication
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/communication/communication.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/write_access.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/seq_num.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_reliable_stream.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[0.417s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/input_reliable_stream.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_storage.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/stream_id.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/stream/reliable_stream.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/session_info.h
+[0.418s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/common_create_entities.h
+[0.419s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_ref.h
+[0.419s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/time_sync.h
+[0.419s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/object_id.h
+[0.419s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_bin.h
+[0.420s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/read_access.h
+[0.420s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/session.h
+[0.421s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/core/session/create_entities_xml.h
+[0.421s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/client.h
+[0.422s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/visibility.h
+[0.422s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/util
+[0.422s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/util/time.h
+[0.422s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/util/ping.h
+[0.424s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/defines.h
+[0.425s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/uxr/client/config.h
+[0.425s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[0.425s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientTargets-debug.cmake
+[0.425s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[0.425s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[0.487s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microxrcedds_client

@@ -1,0 +1,40 @@
+[3.499s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data
+[3.772s] running egg_info
+[3.774s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[3.775s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[3.775s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[3.775s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[3.777s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[3.777s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[3.777s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.781s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.782s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[3.782s] running build
+[3.783s] running build_py
+[3.783s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build
+[3.783s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib
+[3.784s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.785s] copying ament_cpplint/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.785s] copying ament_cpplint/cpplint.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.786s] copying ament_cpplint/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[3.787s] running install
+[3.787s] running install_lib
+[3.788s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[3.789s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[3.789s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[3.790s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[3.791s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/main.py to main.cpython-310.pyc
+[3.795s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-310.pyc
+[3.858s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/__init__.py to __init__.cpython-310.pyc
+[3.858s] running install_data
+[3.858s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[3.858s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[3.859s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[3.859s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[3.859s] copying resource/ament_cpplint -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[3.860s] running install_egg_info
+[3.865s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint-0.12.10-py3.10.egg-info
+[3.867s] running install_scripts
+[3.919s] Installing ament_cpplint script to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/bin
+[3.919s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/install.log'
+[4.122s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data

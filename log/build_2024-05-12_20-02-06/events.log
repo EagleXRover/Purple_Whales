@@ -1,0 +1,668 @@
+[0.000000] (-) TimerEvent: {}
+[0.000638] (ackermann_msgs) JobQueued: {'identifier': 'ackermann_msgs', 'dependencies': OrderedDict()}
+[0.000694] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.000708] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.000721] (uaq_robot) JobQueued: {'identifier': 'uaq_robot', 'dependencies': OrderedDict()}
+[0.000735] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/paolo/purple_whales_ws/install/micro_ros_msgs')])}
+[0.000755] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.008490] (ackermann_msgs) JobStarted: {'identifier': 'ackermann_msgs'}
+[0.015559] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.020132] (uaq_robot) JobStarted: {'identifier': 'uaq_robot'}
+[0.032838] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.035408] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/paolo/purple_whales_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.040108] (ackermann_msgs) JobProgress: {'identifier': 'ackermann_msgs', 'progress': 'cmake'}
+[0.041890] (ackermann_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/paolo/purple_whales_ws/src/ackermann_msgs', '-DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/ackermann_msgs'], 'cwd': '/home/paolo/purple_whales_ws/build/ackermann_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/ackermann_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043307] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.045182] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.045225] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolo/purple_whales_ws/build/micro_ros_setup', '--', '-j20', '-l20'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098579] (-) TimerEvent: {}
+[0.199325] (-) TimerEvent: {}
+[0.299751] (-) TimerEvent: {}
+[0.384479] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.386709] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.386986] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.387607] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.389142] (ackermann_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.391557] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.400042] (-) TimerEvent: {}
+[0.417394] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.429910] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolo/purple_whales_ws/build/micro_ros_setup'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_setup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.438754] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.439289] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.439417] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.439476] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.439546] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.439798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.439940] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.440059] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.440166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.440228] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.440316] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.440472] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.440869] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.441021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.441167] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.441276] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.441644] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config\n'}
+[0.441852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.442098] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.442205] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.442309] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.442384] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.442477] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.442582] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.442661] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.442994] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.443150] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.443233] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.443342] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.443404] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.444022] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.444225] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.444319] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.444422] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.444649] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.445024] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.445120] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.445391] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.445502] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.445560] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android\n'}
+[0.445612] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.445743] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.445855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.446294] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.446499] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.446542] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.446578] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.446616] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.446653] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.446693] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host\n'}
+[0.446737] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.446783] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.447055] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.447304] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.447442] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.447566] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.447607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.447641] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.447672] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.447706] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.447739] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.447769] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.448393] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.448571] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.448760] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.448886] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.448988] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.449913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.450115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.450221] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.450324] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.450425] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.450524] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.450624] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.450724] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.450828] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.450933] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.451050] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.451173] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.451958] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.452244] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.453102] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.453165] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.453204] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.453242] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.453280] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.453324] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.453366] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.453714] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.454033] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.454143] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.454256] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.454370] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.454452] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.454560] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.454655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.454767] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.454867] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.454977] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.455063] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.455178] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.455281] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.455479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.455696] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.455981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.456077] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.456157] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.456531] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.456638] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.456744] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.456895] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.456943] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.456977] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.457010] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.457042] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.457071] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.457102] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.457138] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.457167] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.457196] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.457222] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.457252] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.457279] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.457307] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.457335] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.457364] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.457394] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.457423] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.457519] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.457630] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.457800] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.457961] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.458060] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.458173] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.458303] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.458481] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.458776] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.459130] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.459221] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.459304] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.459439] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.460372] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.460626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.461324] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.461800] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.461852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.461884] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.461919] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.461950] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.461981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.462011] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.462044] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.462077] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.462156] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.462450] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.462594] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.462747] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.463239] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.463872] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.464337] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.464479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.464556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.464660] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.464736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.464826] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.464929] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.465035] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.465149] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.465258] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.465482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.465564] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.465604] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.465650] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.465683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.465723] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.465802] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.465922] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.466082] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.466622] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.466851] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.466999] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.467608] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.500208] (-) TimerEvent: {}
+[0.518519] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[0.600521] (-) TimerEvent: {}
+[0.698225] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700628] (-) TimerEvent: {}
+[0.757388] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801039] (-) TimerEvent: {}
+[0.902023] (-) TimerEvent: {}
+[0.998454] (uaq_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uaq_robot', 'build', '--build-base', '/home/paolo/purple_whales_ws/build/uaq_robot/build', 'install', '--record', '/home/paolo/purple_whales_ws/build/uaq_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paolo/purple_whales_ws/src/uaq_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MESA_D3D12_DEFAULT_ADAPTER_NAME': 'NVIDIA', 'GZ_SIM_RESOURCE_PATH': '/home/paolo/ros2_ws/install/minichallenges/share', 'USER': 'paolo', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': 'wslview', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/paolo', 'OLDPWD': '/home/paolo', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paolo', 'NAME': 'Zephyrus', 'WSL_INTEROP': '/run/WSL/879_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '449b4b24-e5a8-4028-b0ac-c81a8141bae6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/paolo/purple_whales_ws/build/uaq_robot', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paolo/purple_whales_ws/build/uaq_robot/prefix_override:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.002704] (-) TimerEvent: {}
+[1.103789] (-) TimerEvent: {}
+[1.146468] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.203920] (-) TimerEvent: {}
+[1.248918] (uaq_robot) StdoutLine: {'line': b'running egg_info\n'}
+[1.250774] (uaq_robot) StdoutLine: {'line': b'writing ../../build/uaq_robot/uaq_robot.egg-info/PKG-INFO\n'}
+[1.251150] (uaq_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/uaq_robot/uaq_robot.egg-info/dependency_links.txt\n'}
+[1.251475] (uaq_robot) StdoutLine: {'line': b'writing entry points to ../../build/uaq_robot/uaq_robot.egg-info/entry_points.txt\n'}
+[1.251640] (uaq_robot) StdoutLine: {'line': b'writing requirements to ../../build/uaq_robot/uaq_robot.egg-info/requires.txt\n'}
+[1.251685] (uaq_robot) StdoutLine: {'line': b'writing top-level names to ../../build/uaq_robot/uaq_robot.egg-info/top_level.txt\n'}
+[1.257219] (uaq_robot) StdoutLine: {'line': b"reading manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'\n"}
+[1.258146] (uaq_robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.259412] (uaq_robot) StdoutLine: {'line': b"writing manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'\n"}
+[1.259873] (uaq_robot) StdoutLine: {'line': b'running build\n'}
+[1.260138] (uaq_robot) StdoutLine: {'line': b'running build_py\n'}
+[1.260359] (uaq_robot) StdoutLine: {'line': b'copying uaq_robot/simple_publisher.py -> /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot\n'}
+[1.260583] (uaq_robot) StdoutLine: {'line': b'running install\n'}
+[1.261438] (uaq_robot) StdoutLine: {'line': b'running install_lib\n'}
+[1.263371] (uaq_robot) StdoutLine: {'line': b'copying /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot/simple_publisher.py -> /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot\n'}
+[1.264346] (uaq_robot) StdoutLine: {'line': b'byte-compiling /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[1.265312] (uaq_robot) StdoutLine: {'line': b'running install_data\n'}
+[1.265638] (uaq_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.268165] (uaq_robot) StdoutLine: {'line': b"removing '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.268472] (uaq_robot) StdoutLine: {'line': b'Copying ../../build/uaq_robot/uaq_robot.egg-info to /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot-0.0.0-py3.10.egg-info\n'}
+[1.269840] (uaq_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.301315] (uaq_robot) StdoutLine: {'line': b'Installing simple_publisher script to /home/paolo/purple_whales_ws/install/uaq_robot/lib/uaq_robot\n'}
+[1.302280] (uaq_robot) StdoutLine: {'line': b"writing list of installed files to '/home/paolo/purple_whales_ws/build/uaq_robot/install.log'\n"}
+[1.304048] (-) TimerEvent: {}
+[1.395745] (uaq_robot) CommandEnded: {'returncode': 0}
+[1.398982] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.404480] (-) TimerEvent: {}
+[1.408006] (uaq_robot) JobEnded: {'identifier': 'uaq_robot', 'rc': 0}
+[1.504763] (-) TimerEvent: {}
+[1.605281] (-) TimerEvent: {}
+[1.689146] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.705453] (-) TimerEvent: {}
+[1.721429] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.756121] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.756418] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.756457] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.780137] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.787425] (ackermann_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.791332] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.793184] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.805292] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.805925] (-) TimerEvent: {}
+[1.873187] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.877187] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_msgs\n'}
+[1.906447] (-) TimerEvent: {}
+[1.907006] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.908914] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[1.909077] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolo/purple_whales_ws/build/micro_ros_msgs', '--', '-j20', '-l20'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.957946] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[1.967955] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[1.978647] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[1.981536] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.981792] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.981861] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.987400] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[1.993240] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[1.993755] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.993958] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.006673] (-) TimerEvent: {}
+[2.008833] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.009400] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.009855] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.010165] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.010221] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.014622] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.041328] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[2.066062] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[2.080947] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[2.098233] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[2.107166] (-) TimerEvent: {}
+[2.112941] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.113367] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.113437] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.124683] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[2.124892] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.124935] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.207419] (-) TimerEvent: {}
+[2.239275] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.240887] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[2.241297] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[2.241612] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[2.249272] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.251188] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[2.307800] (-) TimerEvent: {}
+[2.312222] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[2.328754] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.402806] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[2.403308] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.408103] (-) TimerEvent: {}
+[2.413840] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.414348] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[2.414511] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.414725] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.414793] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[2.414837] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[2.414886] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[2.414943] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.414983] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[2.415052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[2.415167] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[2.415302] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[2.415359] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[2.415398] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[2.415431] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[2.415492] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[2.415722] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[2.415928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[2.415979] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[2.416017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[2.416053] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.416115] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[2.416160] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[2.416600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[2.416827] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.417010] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.417185] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.417225] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[2.417262] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[2.417292] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[2.417321] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.417862] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.418091] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.418260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.418323] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.418465] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[2.418508] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[2.418699] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[2.418759] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[2.418866] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[2.418980] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[2.419179] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.419700] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.420339] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[2.420628] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.420805] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.420928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[2.421031] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.421140] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[2.422135] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[2.422512] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[2.422922] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[2.422969] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[2.423002] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[2.423032] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[2.423077] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[2.423113] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[2.423149] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[2.423190] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[2.423244] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.424288] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.424465] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.424522] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424586] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424638] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[2.424696] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.425175] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.425678] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.425917] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[2.426089] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[2.426339] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[2.426537] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.426975] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[2.427423] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[2.427611] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[2.427742] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.427850] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.428056] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.428136] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[2.428191] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[2.428281] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[2.428370] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[2.428439] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[2.428496] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[2.428595] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[2.428705] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[2.428798] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[2.428976] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.429310] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.429418] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[2.429458] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[2.429493] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[2.429525] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[2.429554] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[2.429585] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[2.429643] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[2.429675] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[2.429704] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[2.429738] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.429771] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.429810] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.429846] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.429886] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.469096] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[2.469352] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[2.469419] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[2.481488] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.481866] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.482258] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.483134] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.483581] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.483702] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.483740] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.483834] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.484209] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.484319] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.485051] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.485355] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.485400] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.485444] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.485473] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.485503] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.485533] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.485559] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.485586] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.485613] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.485651] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.485680] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.486124] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.486344] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.486593] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.486665] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.487061] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.487419] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.487549] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.487674] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.487789] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.487857] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.487892] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.488157] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.488214] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.488425] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.488474] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.488920] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.489058] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.489274] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.489356] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.489390] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.489422] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.489453] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.489482] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.489508] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.489535] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[2.489563] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[2.489600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[2.492157] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.508403] (-) TimerEvent: {}
+[2.580540] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[2.582941] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[2.608649] (-) TimerEvent: {}
+[2.709179] (-) TimerEvent: {}
+[2.720277] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.778017] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[2.779817] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/paolo/purple_whales_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_agent'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/879_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/paolo/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '449b4b24-e5a8-4028-b0ac-c81a8141bae6'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[2.797757] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.809379] (-) TimerEvent: {}
+[2.910008] (-) TimerEvent: {}
+[2.997678] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.002963] (ackermann_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.003317] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.003371] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.006687] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.010184] (-) TimerEvent: {}
+[3.110758] (-) TimerEvent: {}
+[3.211575] (-) TimerEvent: {}
+[3.303826] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.310731] (ackermann_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.311016] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.311219] (ackermann_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.311615] (-) TimerEvent: {}
+[3.312313] (ackermann_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.411971] (-) TimerEvent: {}
+[3.492623] (ackermann_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.512228] (-) TimerEvent: {}
+[3.591754] (ackermann_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.612812] (-) TimerEvent: {}
+[3.686230] (ackermann_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.687926] (ackermann_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.694534] (ackermann_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.713319] (-) TimerEvent: {}
+[3.814490] (-) TimerEvent: {}
+[3.915018] (-) TimerEvent: {}
+[4.015685] (-) TimerEvent: {}
+[4.040805] (ackermann_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.074244] (ackermann_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[4.075015] (ackermann_msgs) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/AckermannMessages.msg'\n"}
+[4.075062] (ackermann_msgs) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[4.075094] (ackermann_msgs) StderrLine: {'line': b"  '/home/paolo/purple_whales_ws/src/ackermann_msgs'\n"}
+[4.075124] (ackermann_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.075154] (ackermann_msgs) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[4.075193] (ackermann_msgs) StderrLine: {'line': b'\n'}
+[4.075224] (ackermann_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[4.075255] (ackermann_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.075325] (ackermann_msgs) StdoutLine: {'line': b'See also "/home/paolo/purple_whales_ws/build/ackermann_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[4.090360] (ackermann_msgs) CommandEnded: {'returncode': 1}
+[4.109471] (ackermann_msgs) JobEnded: {'identifier': 'ackermann_msgs', 'rc': 1}
+[4.116032] (-) TimerEvent: {}
+[4.217003] (-) TimerEvent: {}
+[4.317740] (-) TimerEvent: {}
+[4.418648] (-) TimerEvent: {}
+[4.519038] (-) TimerEvent: {}
+[4.619813] (-) TimerEvent: {}
+[4.720885] (-) TimerEvent: {}
+[4.821657] (-) TimerEvent: {}
+[4.922357] (-) TimerEvent: {}
+[5.023365] (-) TimerEvent: {}
+[5.124512] (-) TimerEvent: {}
+[5.225111] (-) TimerEvent: {}
+[5.325689] (-) TimerEvent: {}
+[5.426345] (-) TimerEvent: {}
+[5.527235] (-) TimerEvent: {}
+[5.628425] (-) TimerEvent: {}
+[5.729220] (-) TimerEvent: {}
+[5.830024] (-) TimerEvent: {}
+[5.930803] (-) TimerEvent: {}
+[6.031440] (-) TimerEvent: {}
+[6.132204] (-) TimerEvent: {}
+[6.233130] (-) TimerEvent: {}
+[6.333867] (-) TimerEvent: {}
+[6.416222] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[6.416746] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.434181] (-) TimerEvent: {}
+[6.535524] (-) TimerEvent: {}
+[6.636192] (-) TimerEvent: {}
+[6.737135] (-) TimerEvent: {}
+[6.838382] (-) TimerEvent: {}
+[6.939423] (-) TimerEvent: {}
+[7.039957] (-) TimerEvent: {}
+[7.140639] (-) TimerEvent: {}
+[7.241163] (-) TimerEvent: {}
+[7.341911] (-) TimerEvent: {}
+[7.442500] (-) TimerEvent: {}
+[7.543568] (-) TimerEvent: {}
+[7.644236] (-) TimerEvent: {}
+[7.745226] (-) TimerEvent: {}
+[7.845832] (-) TimerEvent: {}
+[7.946351] (-) TimerEvent: {}
+[8.047144] (-) TimerEvent: {}
+[8.148124] (-) TimerEvent: {}
+[8.249084] (-) TimerEvent: {}
+[8.349801] (-) TimerEvent: {}
+[8.450279] (-) TimerEvent: {}
+[8.551074] (-) TimerEvent: {}
+[8.652096] (-) TimerEvent: {}
+[8.752900] (-) TimerEvent: {}
+[8.853710] (-) TimerEvent: {}
+[8.954669] (-) TimerEvent: {}
+[9.055157] (-) TimerEvent: {}
+[9.155868] (-) TimerEvent: {}
+[9.256711] (-) TimerEvent: {}
+[9.357373] (-) TimerEvent: {}
+[9.458091] (-) TimerEvent: {}
+[9.558807] (-) TimerEvent: {}
+[9.659935] (-) TimerEvent: {}
+[9.760502] (-) TimerEvent: {}
+[9.861396] (-) TimerEvent: {}
+[9.907416] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[9.908589] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[9.961528] (-) TimerEvent: {}
+[10.062291] (-) TimerEvent: {}
+[10.162777] (-) TimerEvent: {}
+[10.210724] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.216469] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.224308] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.235568] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.263240] (-) TimerEvent: {}
+[10.264999] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[10.363513] (-) TimerEvent: {}
+[10.464326] (-) TimerEvent: {}
+[10.564791] (-) TimerEvent: {}
+[10.665338] (-) TimerEvent: {}
+[10.766177] (-) TimerEvent: {}
+[10.867352] (-) TimerEvent: {}
+[10.968571] (-) TimerEvent: {}
+[11.069430] (-) TimerEvent: {}
+[11.169922] (-) TimerEvent: {}
+[11.270487] (-) TimerEvent: {}
+[11.371373] (-) TimerEvent: {}
+[11.472464] (-) TimerEvent: {}
+[11.573636] (-) TimerEvent: {}
+[11.674590] (-) TimerEvent: {}
+[11.774969] (-) TimerEvent: {}
+[11.875502] (-) TimerEvent: {}
+[11.976090] (-) TimerEvent: {}
+[12.076953] (-) TimerEvent: {}
+[12.177330] (-) TimerEvent: {}
+[12.277812] (-) TimerEvent: {}
+[12.378431] (-) TimerEvent: {}
+[12.479025] (-) TimerEvent: {}
+[12.579947] (-) TimerEvent: {}
+[12.681275] (-) TimerEvent: {}
+[12.782230] (-) TimerEvent: {}
+[12.882933] (-) TimerEvent: {}
+[12.983796] (-) TimerEvent: {}
+[13.084872] (-) TimerEvent: {}
+[13.185497] (-) TimerEvent: {}
+[13.286263] (-) TimerEvent: {}
+[13.386745] (-) TimerEvent: {}
+[13.487416] (-) TimerEvent: {}
+[13.588050] (-) TimerEvent: {}
+[13.688833] (-) TimerEvent: {}
+[13.789455] (-) TimerEvent: {}
+[13.889981] (-) TimerEvent: {}
+[13.990616] (-) TimerEvent: {}
+[14.091273] (-) TimerEvent: {}
+[14.191834] (-) TimerEvent: {}
+[14.292597] (-) TimerEvent: {}
+[14.393529] (-) TimerEvent: {}
+[14.494410] (-) TimerEvent: {}
+[14.595377] (-) TimerEvent: {}
+[14.696615] (-) TimerEvent: {}
+[14.797899] (-) TimerEvent: {}
+[14.898559] (-) TimerEvent: {}
+[14.999181] (-) TimerEvent: {}
+[15.100421] (-) TimerEvent: {}
+[15.201466] (-) TimerEvent: {}
+[15.302097] (-) TimerEvent: {}
+[15.402726] (-) TimerEvent: {}
+[15.503753] (-) TimerEvent: {}
+[15.604686] (-) TimerEvent: {}
+[15.705842] (-) TimerEvent: {}
+[15.806674] (-) TimerEvent: {}
+[15.907629] (-) TimerEvent: {}
+[16.008414] (-) TimerEvent: {}
+[16.109008] (-) TimerEvent: {}
+[16.210036] (-) TimerEvent: {}
+[16.310521] (-) TimerEvent: {}
+[16.410944] (-) TimerEvent: {}
+[16.511973] (-) TimerEvent: {}
+[16.613248] (-) TimerEvent: {}
+[16.714146] (-) TimerEvent: {}
+[16.814471] (-) TimerEvent: {}
+[16.915087] (-) TimerEvent: {}
+[17.016104] (-) TimerEvent: {}
+[17.116858] (-) TimerEvent: {}
+[17.217503] (-) TimerEvent: {}
+[17.237135] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[17.237589] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[17.239561] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[17.317875] (-) TimerEvent: {}
+[17.347339] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.362050] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[17.363806] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_agent\n'}
+[17.382184] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 'SIGINT'}
+[17.393693] (-) EventReactorShutdown: {}

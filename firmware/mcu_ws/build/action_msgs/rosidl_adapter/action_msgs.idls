@@ -1,0 +1,4 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl

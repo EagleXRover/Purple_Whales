@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/uaq_robot/uaq_robot.egg-info
+writing ../../build/uaq_robot/uaq_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/uaq_robot/uaq_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/uaq_robot/uaq_robot.egg-info/entry_points.txt
+writing requirements to ../../build/uaq_robot/uaq_robot.egg-info/requires.txt
+writing top-level names to ../../build/uaq_robot/uaq_robot.egg-info/top_level.txt
+writing manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/paolo/purple_whales_ws/build/uaq_robot/build
+creating /home/paolo/purple_whales_ws/build/uaq_robot/build/lib
+creating /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot
+copying uaq_robot/__init__.py -> /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot
+running install
+running install_lib
+creating /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot
+copying /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot/__init__.py -> /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot
+byte-compiling /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/paolo/purple_whales_ws/install/uaq_robot/share/ament_index
+creating /home/paolo/purple_whales_ws/install/uaq_robot/share/ament_index/resource_index
+creating /home/paolo/purple_whales_ws/install/uaq_robot/share/ament_index/resource_index/packages
+copying resource/uaq_robot -> /home/paolo/purple_whales_ws/install/uaq_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot
+running install_egg_info
+Copying ../../build/uaq_robot/uaq_robot.egg-info to /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/paolo/purple_whales_ws/build/uaq_robot/install.log'

@@ -1,0 +1,41 @@
+[0.452s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr -- -j20 -l20
+[1.391s] gmake[4]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.391s] /usr/bin/cmake -S/home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[1.391s] Re-run cmake file: Makefile older than: /home/paolo/purple_whales_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+[1.391s] -- Configuring done
+[1.391s] -- Generating done
+[1.391s] -- Build files have been written to: /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr
+[1.391s] /usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[1.391s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[1.391s] gmake[5]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.392s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[1.392s] gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.392s] cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/paolo/purple_whales_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[1.392s] Dependencies file "CMakeFiles/microcdr.dir/src/c/common.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.392s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/array.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.392s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/basic.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.394s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.394s] Dependencies file "CMakeFiles/microcdr.dir/src/c/types/string.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/compiler_depend.internal".
+[1.403s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[1.415s] gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.415s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[1.427s] gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.428s] gmake[6]: Nothing to be done for 'CMakeFiles/microcdr.dir/build'.
+[1.428s] gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.428s] [100%] Built target microcdr
+[1.428s] gmake[5]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.428s] /usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[1.428s] gmake[4]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr'
+[1.513s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr -- -j20 -l20
+[1.559s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr
+[1.620s] -- Install configuration: "Debug"
+[1.621s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+[1.621s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/ucdr
+[1.622s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+[1.622s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+[1.623s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/ucdr/config.h
+[1.623s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+[1.623s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-debug.cmake
+[1.623s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+[1.624s] -- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.695s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/paolo/purple_whales_ws/firmware/mcu_ws/build/microcdr

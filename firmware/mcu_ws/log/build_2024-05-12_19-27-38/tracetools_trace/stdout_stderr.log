@@ -1,0 +1,32 @@
+running egg_info
+writing ../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+writing entry points to ../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+writing requirements to ../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+writing top-level names to ../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+reading manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tracetools_trace/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+copying tracetools_trace/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+copying tracetools_trace/tools/lttng_stub.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/args.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/signals.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/tracepoints.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/names.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/lttng.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/path.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+copying tracetools_trace/tools/lttng_impl.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_trace
+copying resource/tracetools_trace -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info' (and everything under it)
+Copying ../../../build/tracetools_trace/tracetools_trace.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info
+running install_scripts
+Installing trace script to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin
+writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/install.log'

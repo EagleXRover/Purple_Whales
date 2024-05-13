@@ -1,0 +1,63 @@
+[2.670s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_trace': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed install_data
+[2.973s] running egg_info
+[2.974s] creating ../../../build/tracetools_trace/tracetools_trace.egg-info
+[2.982s] writing ../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+[2.983s] writing dependency_links to ../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+[2.985s] writing entry points to ../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+[2.985s] writing requirements to ../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+[2.985s] writing top-level names to ../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+[2.986s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.003s] reading manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.005s] writing manifest file '../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+[3.006s] running build
+[3.006s] running build_py
+[3.008s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build
+[3.009s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib
+[3.009s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.009s] copying tracetools_trace/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.010s] copying tracetools_trace/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace
+[3.010s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.010s] copying tracetools_trace/tools/lttng_stub.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.011s] copying tracetools_trace/tools/args.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.011s] copying tracetools_trace/tools/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.011s] copying tracetools_trace/tools/signals.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.011s] copying tracetools_trace/tools/tracepoints.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.012s] copying tracetools_trace/tools/names.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.012s] copying tracetools_trace/tools/lttng.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.012s] copying tracetools_trace/tools/path.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.013s] copying tracetools_trace/tools/lttng_impl.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools
+[3.014s] running install
+[3.030s] running install_lib
+[3.032s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.032s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.033s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.034s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_stub.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.034s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/args.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.034s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.035s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/signals.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.035s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/tracepoints.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.035s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/names.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.035s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.035s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/path.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.036s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/tools/lttng_impl.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools
+[3.036s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build/lib/tracetools_trace/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace
+[3.038s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/__init__.py to __init__.cpython-310.pyc
+[3.039s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_stub.py to lttng_stub.cpython-310.pyc
+[3.040s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/args.py to args.cpython-310.pyc
+[3.041s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/__init__.py to __init__.cpython-310.pyc
+[3.042s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/signals.py to signals.cpython-310.pyc
+[3.043s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/tracepoints.py to tracepoints.cpython-310.pyc
+[3.044s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/names.py to names.cpython-310.pyc
+[3.045s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng.py to lttng.cpython-310.pyc
+[3.046s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/path.py to path.cpython-310.pyc
+[3.046s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/tools/lttng_impl.py to lttng_impl.cpython-310.pyc
+[3.054s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace/trace.py to trace.cpython-310.pyc
+[3.054s] running install_data
+[3.054s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_trace
+[3.054s] copying resource/tracetools_trace -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[3.054s] running install_egg_info
+[3.062s] Copying ../../../build/tracetools_trace/tracetools_trace.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_trace-4.1.1-py3.10.egg-info
+[3.064s] running install_scripts
+[3.165s] Installing trace script to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin
+[3.165s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/install.log'
+[3.375s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_trace' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_trace build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_trace/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/test_tracetools_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/test_tracetools/CMakeFiles/install/strip.dir

@@ -1,0 +1,44 @@
+[1.405s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data
+[1.670s] running egg_info
+[1.673s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[1.673s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[1.674s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[1.675s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[1.675s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[1.675s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[1.675s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.680s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.681s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.681s] running build
+[1.682s] running build_py
+[1.683s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build
+[1.683s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[1.683s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.684s] copying ament_mypy/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.684s] copying ament_mypy/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.684s] copying ament_mypy/pytest_marker.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[1.685s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.685s] copying ament_mypy/configuration/ament_mypy.ini -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.685s] running install
+[1.685s] running install_lib
+[1.687s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.688s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.688s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[1.689s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/configuration
+[1.689s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.689s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy
+[1.691s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/main.py to main.cpython-310.pyc
+[1.695s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/__init__.py to __init__.cpython-310.pyc
+[1.696s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.697s] running install_data
+[1.697s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[1.697s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[1.697s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[1.697s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[1.698s] copying resource/ament_mypy -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[1.698s] running install_egg_info
+[1.700s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages/ament_mypy-0.12.10-py3.10.egg-info
+[1.700s] running install_scripts
+[1.741s] Installing ament_mypy script to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/bin
+[1.742s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[1.897s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_mypy/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data

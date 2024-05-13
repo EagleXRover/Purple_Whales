@@ -1,0 +1,28 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_generator_c/std_srvs",
+  "template_dir": "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "target_dependencies": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Empty.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/SetBool.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/rosidl_adapter/std_srvs/srv/Trigger.idl"
+  ]
+}

@@ -1,0 +1,7 @@
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/exlib.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build/CMakeFiles/install/strip.dir

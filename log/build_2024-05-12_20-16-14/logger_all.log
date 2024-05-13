@@ -1,0 +1,482 @@
+[0.300s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.301s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb9c84b7b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb9c8464af0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb9c8464af0>>)
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.440s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paolo/purple_whales_ws'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(firmware) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.462s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/uaq_robot) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uaq_robot' with type 'ros.ament_python' and name 'uaq_robot'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.467s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.493s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.496s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/paolo/purple_whales_ws/install
+[0.497s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolo/purple_whales_ws/build/ackermann_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolo/purple_whales_ws/install/ackermann_msgs', 'merge_install': False, 'path': '/home/paolo/purple_whales_ws/src/ackermann_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolo/purple_whales_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/paolo/purple_whales_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.569s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolo/purple_whales_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolo/purple_whales_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/paolo/purple_whales_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_args' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_target' from command line to 'None'
+[0.569s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'uaq_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'uaq_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolo/purple_whales_ws/build/uaq_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolo/purple_whales_ws/install/uaq_robot', 'merge_install': False, 'path': '/home/paolo/purple_whales_ws/src/uaq_robot', 'symlink_install': False, 'test_result_base': None}
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paolo/purple_whales_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paolo/purple_whales_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/paolo/purple_whales_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.570s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.572s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paolo/purple_whales_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.572s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paolo/purple_whales_ws/src/uros/micro_ros_msgs'
+[0.575s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paolo/purple_whales_ws/src/ackermann_msgs' with build type 'ament_cmake'
+[0.581s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paolo/purple_whales_ws/src/ackermann_msgs'
+[0.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.582s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paolo/purple_whales_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paolo/purple_whales_ws/src/micro_ros_setup'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.592s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paolo/purple_whales_ws/src/uaq_robot' with build type 'ament_python'
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('uaq_robot', 'ament_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/ament_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/ament_prefix_path.dsv'
+[0.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/ament_prefix_path.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+[0.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/ackermann_msgs -- -j20 -l20
+[0.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_setup -- -j20 -l20
+[1.024s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paolo/purple_whales_ws/src/uaq_robot'
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_setup -- -j20 -l20
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_setup
+[1.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup' for CMake module files
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_setup
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup' for CMake config files
+[1.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/bin'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/ackermann_msgs -- -j20 -l20
+[1.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_msgs -- -j20 -l20
+[1.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup' for CMake config files
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/bin'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_setup/bin'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/ackermann_msgs
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs
+[1.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs' for CMake module files
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/ackermann_msgs
+[1.283s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs' for CMake config files
+[1.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib'
+[1.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/bin'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/bin'
+[1.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[1.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[1.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[1.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[1.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[1.322s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs' for CMake module files
+[1.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_msgs
+[1.325s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs' for CMake config files
+[1.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.327s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib'
+[1.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/bin'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/bin'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.348s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs' for CMake module files
+[1.350s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs' for CMake config files
+[1.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[1.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib'
+[1.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/bin'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/ackermann_msgs/bin'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[1.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[1.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[1.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[1.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[1.414s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs' for CMake module files
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs' for CMake config files
+[1.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[1.417s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib'
+[1.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/bin'
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[1.419s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_msgs/bin'
+[1.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[1.423s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[1.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paolo/purple_whales_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[1.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paolo/purple_whales_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[1.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/src/uaq_robot': PYTHONPATH=/home/paolo/purple_whales_ws/build/uaq_robot/prefix_override:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uaq_robot build --build-base /home/paolo/purple_whales_ws/build/uaq_robot/build install --record /home/paolo/purple_whales_ws/build/uaq_robot/install.log --single-version-externally-managed install_data
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/micro_ros_agent:/home/paolo/purple_whales_ws/install/ackermann_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/home/paolo/purple_whales_ws/install/micro_ros_agent/lib:/home/paolo/purple_whales_ws/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_agent -- -j20 -l20
+[1.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/micro_ros_agent:/home/paolo/purple_whales_ws/install/ackermann_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/home/paolo/purple_whales_ws/install/micro_ros_agent/lib:/home/paolo/purple_whales_ws/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/paolo/purple_whales_ws/build/micro_ros_agent -- -j20 -l20
+[1.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paolo/purple_whales_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/micro_ros_agent:/home/paolo/purple_whales_ws/install/ackermann_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/home/paolo/purple_whales_ws/install/micro_ros_agent/lib:/home/paolo/purple_whales_ws/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_agent
+[1.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.778s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent' for CMake module files
+[1.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/micro_ros_agent:/home/paolo/purple_whales_ws/install/ackermann_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/home/paolo/purple_whales_ws/install/micro_ros_agent/lib:/home/paolo/purple_whales_ws/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/paolo/purple_whales_ws/build/micro_ros_agent
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent' for CMake config files
+[1.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/bin'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/bin'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent' for CMake module files
+[1.825s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent' for CMake config files
+[1.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[1.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[1.827s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[1.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[1.828s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib'
+[1.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[1.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/bin'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/micro_ros_agent/bin'
+[1.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[1.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[1.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[1.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot' for CMake module files
+[1.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paolo/purple_whales_ws/src/uaq_robot' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/build/uaq_robot/prefix_override:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uaq_robot build --build-base /home/paolo/purple_whales_ws/build/uaq_robot/build install --record /home/paolo/purple_whales_ws/build/uaq_robot/install.log --single-version-externally-managed install_data
+[1.881s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot' for CMake config files
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot/lib'
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot/bin'
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot/lib/pkgconfig/uaq_robot.pc'
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages'
+[1.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('uaq_robot', 'pythonpath')
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/pythonpath.ps1'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/pythonpath.dsv'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/hook/pythonpath.sh'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/paolo/purple_whales_ws/install/uaq_robot/bin'
+[1.884s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uaq_robot)
+[1.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/package.ps1'
+[1.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/package.dsv'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/package.sh'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/package.bash'
+[1.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/paolo/purple_whales_ws/install/uaq_robot/share/uaq_robot/package.zsh'
+[1.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paolo/purple_whales_ws/install/uaq_robot/share/colcon-core/packages/uaq_robot)
+[1.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.886s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.887s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.992s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.992s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.992s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolo/purple_whales_ws/install/local_setup.ps1'
+[1.995s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paolo/purple_whales_ws/install/_local_setup_util_ps1.py'
+[1.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolo/purple_whales_ws/install/setup.ps1'
+[1.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolo/purple_whales_ws/install/local_setup.sh'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paolo/purple_whales_ws/install/_local_setup_util_sh.py'
+[1.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolo/purple_whales_ws/install/setup.sh'
+[2.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolo/purple_whales_ws/install/local_setup.bash'
+[2.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolo/purple_whales_ws/install/setup.bash'
+[2.008s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paolo/purple_whales_ws/install/local_setup.zsh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paolo/purple_whales_ws/install/setup.zsh'

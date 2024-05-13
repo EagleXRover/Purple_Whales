@@ -1,0 +1,40 @@
+[1.407s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data
+[1.684s] running egg_info
+[1.687s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[1.688s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[1.689s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[1.689s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[1.689s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[1.690s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[1.691s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.695s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.696s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[1.697s] running build
+[1.697s] running build_py
+[1.697s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build
+[1.697s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib
+[1.698s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[1.698s] copying ament_pep257/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[1.698s] copying ament_pep257/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[1.698s] copying ament_pep257/pytest_marker.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[1.699s] running install
+[1.700s] running install_lib
+[1.703s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[1.703s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[1.703s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[1.704s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257
+[1.704s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/main.py to main.cpython-310.pyc
+[1.705s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/__init__.py to __init__.cpython-310.pyc
+[1.705s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-310.pyc
+[1.706s] running install_data
+[1.706s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[1.706s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/share/ament_index
+[1.707s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[1.707s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[1.707s] copying resource/ament_pep257 -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[1.707s] running install_egg_info
+[1.710s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages/ament_pep257-0.12.10-py3.10.egg-info
+[1.711s] running install_scripts
+[1.756s] Installing ament_pep257 script to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/bin
+[1.758s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/install.log'
+[1.937s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data

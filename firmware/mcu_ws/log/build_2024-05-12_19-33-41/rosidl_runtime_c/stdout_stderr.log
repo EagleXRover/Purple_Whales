@@ -1,0 +1,79 @@
+gmake[4]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/cmake -S/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c -B/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake file: Makefile older than: /home/paolo/purple_whales_ws/firmware/freertos_apps/microros_esp32_extensions/esp32_toolchain.cmake
+-- Found ament_cmake_ros: 0.10.0 (/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found rcutils: 5.1.5 (/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rcutils/cmake)
+[33mCMake Warning at /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  CMakeLists.txt:15 (find_package)
+
+[0m
+-- Found rosidl_typesupport_interface: 3.1.5 (/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_typesupport_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c
+/usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[5]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/gmake  -f CMakeFiles/rosidl_runtime_c.dir/build.make CMakeFiles/rosidl_runtime_c.dir/depend
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+cd /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c /home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_runtime_c /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/DependInfo.cmake --color=
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/message_type_support.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/primitives_sequence_functions.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/sequence_bound.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/service_type_support.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/string_functions.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+Dependencies file "CMakeFiles/rosidl_runtime_c.dir/src/u16string_functions.c.obj.d" is newer than depends file "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir/compiler_depend.internal".
+[35m[1mConsolidate compiler generated dependencies of target rosidl_runtime_c[0m
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/gmake  -f CMakeFiles/rosidl_runtime_c.dir/build.make CMakeFiles/rosidl_runtime_c.dir/build
+gmake[6]: Entering directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+gmake[6]: Nothing to be done for 'CMakeFiles/rosidl_runtime_c.dir/build'.
+gmake[6]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+[100%] Built target rosidl_runtime_c
+gmake[5]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+/usr/bin/cmake -E cmake_progress_start /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles 0
+gmake[4]: Leaving directory '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c'
+-- Install configuration: "Debug"
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/library_path.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/library_path.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string_functions.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_bound.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/include/rosidl_runtime_c/rosidl_runtime_c/u16string.h
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/librosidl_runtime_c.a
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/path.sh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/environment/path.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.bash
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.sh
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.zsh
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/local_setup.dsv
+-- Installing: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/package.dsv
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_runtime_c
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cExport-debug.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig-version.cmake
+-- Up-to-date: /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/package.xml

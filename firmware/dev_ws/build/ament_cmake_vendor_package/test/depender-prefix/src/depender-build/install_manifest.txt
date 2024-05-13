@@ -1,0 +1,1 @@
+/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender

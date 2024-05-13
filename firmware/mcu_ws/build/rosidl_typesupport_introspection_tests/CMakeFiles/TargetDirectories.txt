@@ -1,0 +1,9 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/rosidl_typesupport_introspection_tests_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_typesupport_introspection_tests/CMakeFiles/install/strip.dir

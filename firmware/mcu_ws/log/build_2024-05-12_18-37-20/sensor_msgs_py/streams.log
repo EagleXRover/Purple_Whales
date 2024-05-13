@@ -1,0 +1,25 @@
+[0.730s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data
+[0.877s] running egg_info
+[0.881s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[0.881s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[0.882s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[0.891s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[0.891s] adding license file 'LICENSE'
+[0.892s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[0.892s] running build
+[0.893s] running build_py
+[0.893s] copying sensor_msgs_py/numpy_compat.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.893s] copying sensor_msgs_py/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.893s] copying sensor_msgs_py/point_cloud2.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.893s] running install
+[0.897s] running install_lib
+[0.902s] running install_data
+[0.903s] copying resource/sensor_msgs_py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[0.903s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/sensor_msgs_py
+[0.903s] running install_egg_info
+[0.908s] removing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info' (and everything under it)
+[0.908s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/sensor_msgs_py-4.2.3-py3.10.egg-info
+[0.909s] running install_scripts
+[0.956s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log'
+[0.985s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/sensor_msgs_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,10 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rosidl_runtime_c.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_runtime_c/CMakeFiles/install/strip.dir

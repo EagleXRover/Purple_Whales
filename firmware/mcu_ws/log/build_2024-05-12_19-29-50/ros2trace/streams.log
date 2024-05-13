@@ -1,0 +1,26 @@
+[1.579s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/ros2trace': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data
+[1.969s] running egg_info
+[1.978s] writing ../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+[1.979s] writing dependency_links to ../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+[1.979s] writing entry points to ../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+[1.980s] writing requirements to ../../../build/ros2trace/ros2trace.egg-info/requires.txt
+[1.980s] writing top-level names to ../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+[2.000s] reading manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[2.001s] writing manifest file '../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+[2.001s] running build
+[2.001s] running build_py
+[2.001s] copying ros2trace/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace
+[2.002s] copying ros2trace/command/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[2.002s] copying ros2trace/command/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/command
+[2.002s] copying ros2trace/api/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build/lib/ros2trace/api
+[2.002s] running install
+[2.009s] running install_lib
+[2.019s] running install_data
+[2.019s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ros2trace
+[2.019s] copying resource/ros2trace -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.019s] running install_egg_info
+[2.030s] removing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info' (and everything under it)
+[2.030s] Copying ../../../build/ros2trace/ros2trace.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/ros2trace-4.1.1-py3.10.egg-info
+[2.031s] running install_scripts
+[2.119s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/install.log'
+[2.263s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/ros2trace' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2trace build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/ros2trace/install.log --single-version-externally-managed install_data

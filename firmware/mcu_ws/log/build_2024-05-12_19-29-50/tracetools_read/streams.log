@@ -1,0 +1,23 @@
+[2.454s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_read': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed install_data
+[2.754s] running egg_info
+[2.762s] writing ../../../build/tracetools_read/tracetools_read.egg-info/PKG-INFO
+[2.764s] writing dependency_links to ../../../build/tracetools_read/tracetools_read.egg-info/dependency_links.txt
+[2.764s] writing requirements to ../../../build/tracetools_read/tracetools_read.egg-info/requires.txt
+[2.764s] writing top-level names to ../../../build/tracetools_read/tracetools_read.egg-info/top_level.txt
+[2.786s] reading manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[2.788s] writing manifest file '../../../build/tracetools_read/tracetools_read.egg-info/SOURCES.txt'
+[2.788s] running build
+[2.788s] running build_py
+[2.789s] copying tracetools_read/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read
+[2.789s] copying tracetools_read/trace.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/build/lib/tracetools_read
+[2.789s] running install
+[2.801s] running install_lib
+[2.815s] running install_data
+[2.815s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/tracetools_read
+[2.815s] copying resource/tracetools_read -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[2.816s] running install_egg_info
+[2.826s] removing '/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info' (and everything under it)
+[2.826s] Copying ../../../build/tracetools_read/tracetools_read.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_read-4.1.1-py3.10.egg-info
+[2.827s] running install_scripts
+[2.907s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/install.log'
+[3.140s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/uros/tracetools/tracetools_read' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_read build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/tracetools_read/install.log --single-version-externally-managed install_data

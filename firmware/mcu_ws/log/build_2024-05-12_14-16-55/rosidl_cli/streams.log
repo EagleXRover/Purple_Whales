@@ -1,0 +1,77 @@
+[2.704s] Invoking command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data
+[2.986s] running egg_info
+[2.987s] creating ../../../build/rosidl_cli/rosidl_cli.egg-info
+[2.992s] writing ../../../build/rosidl_cli/rosidl_cli.egg-info/PKG-INFO
+[2.993s] writing dependency_links to ../../../build/rosidl_cli/rosidl_cli.egg-info/dependency_links.txt
+[2.993s] writing entry points to ../../../build/rosidl_cli/rosidl_cli.egg-info/entry_points.txt
+[2.994s] writing requirements to ../../../build/rosidl_cli/rosidl_cli.egg-info/requires.txt
+[2.994s] writing top-level names to ../../../build/rosidl_cli/rosidl_cli.egg-info/top_level.txt
+[2.994s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[3.011s] reading manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[3.013s] writing manifest file '../../../build/rosidl_cli/rosidl_cli.egg-info/SOURCES.txt'
+[3.013s] running build
+[3.013s] running build_py
+[3.013s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build
+[3.013s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib
+[3.014s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.014s] copying rosidl_cli/cli.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.014s] copying rosidl_cli/entry_points.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.015s] copying rosidl_cli/common.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.015s] copying rosidl_cli/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.015s] copying rosidl_cli/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli
+[3.015s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[3.016s] copying rosidl_cli/command/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[3.016s] copying rosidl_cli/command/helpers.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command
+[3.016s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[3.016s] copying rosidl_cli/command/translate/api.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[3.016s] copying rosidl_cli/command/translate/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[3.016s] copying rosidl_cli/command/translate/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate
+[3.017s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[3.017s] copying rosidl_cli/command/generate/api.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[3.017s] copying rosidl_cli/command/generate/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[3.017s] copying rosidl_cli/command/generate/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate
+[3.019s] running install
+[3.029s] running install_lib
+[3.039s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.039s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/cli.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.040s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[3.041s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[3.042s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/helpers.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command
+[3.042s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/api.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/translate/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate
+[3.043s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/api.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[3.043s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/command/generate/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate
+[3.044s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/entry_points.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.044s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/common.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.044s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/__init__.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.044s] copying /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build/lib/rosidl_cli/extensions.py -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli
+[3.045s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/cli.py to cli.cpython-310.pyc
+[3.047s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/__init__.py to __init__.cpython-310.pyc
+[3.048s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/helpers.py to helpers.cpython-310.pyc
+[3.049s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/api.py to api.cpython-310.pyc
+[3.051s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/__init__.py to __init__.cpython-310.pyc
+[3.052s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/translate/extensions.py to extensions.cpython-310.pyc
+[3.053s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/api.py to api.cpython-310.pyc
+[3.054s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/__init__.py to __init__.cpython-310.pyc
+[3.055s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/command/generate/extensions.py to extensions.cpython-310.pyc
+[3.055s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/entry_points.py to entry_points.cpython-310.pyc
+[3.057s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/common.py to common.cpython-310.pyc
+[3.057s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/__init__.py to __init__.cpython-310.pyc
+[3.057s] byte-compiling /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli/extensions.py to extensions.cpython-310.pyc
+[3.058s] running install_data
+[3.058s] copying resource/rosidl_cli -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[3.058s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cli
+[3.058s] copying resource/package.dsv -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cli
+[3.059s] creating /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[3.059s] copying completion/rosidl-argcomplete.bash -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[3.060s] copying completion/rosidl-argcomplete.zsh -> /home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_cli/environment
+[3.060s] running install_egg_info
+[3.072s] Copying ../../../build/rosidl_cli/rosidl_cli.egg-info to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/rosidl_cli-3.1.5-py3.10.egg-info
+[3.074s] running install_scripts
+[3.173s] Installing rosidl script to /home/paolo/purple_whales_ws/firmware/mcu_ws/install/bin
+[3.175s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/install.log'
+[3.486s] Invoked command in '/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cli' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/prefix_override:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /home/paolo/purple_whales_ws/firmware/toolchain/espressif/python_env/idf4.1_py3.10_env/bin/python -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rosidl_cli build --build-base /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/build install --record /home/paolo/purple_whales_ws/firmware/mcu_ws/build/rosidl_cli/install.log --single-version-externally-managed install_data

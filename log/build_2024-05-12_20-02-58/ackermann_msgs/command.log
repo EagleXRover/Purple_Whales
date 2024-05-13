@@ -1,0 +1,2 @@
+Invoking command in '/home/paolo/purple_whales_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/ackermann_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/ackermann_msgs
+Invoked command in '/home/paolo/purple_whales_ws/build/ackermann_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paolo/purple_whales_ws/src/ackermann_msgs -DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/ackermann_msgs

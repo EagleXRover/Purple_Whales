@@ -1,0 +1,38 @@
+{
+  "package_name": "action_msgs",
+  "output_dir": "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_generator_c/action_msgs",
+  "template_dir": "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalInfo.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatus.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:msg/GoalStatusArray.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs:srv/CancelGoal.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalInfo.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatus.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/msg/GoalStatusArray.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/build/action_msgs/rosidl_adapter/action_msgs/srv/CancelGoal.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Duration.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/builtin_interfaces/msg/Time.idl",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/install/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

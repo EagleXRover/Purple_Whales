@@ -1,0 +1,13 @@
+# Target labels
+ libyaml-0.2.5
+# Source files and their labels
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-0.2.5
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-0.2.5.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/CMakeFiles/libyaml-0.2.5-complete.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-build.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-configure.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-download.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-install.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-mkdir.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-patch.rule
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/libyaml_vendor/libyaml-0.2.5-prefix/src/libyaml-0.2.5-stamp/libyaml-0.2.5-update.rule

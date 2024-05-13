@@ -1,0 +1,1317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000911] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001084] (-) JobUnselected: {'identifier': 'uaq_robot'}
+[0.001113] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001126] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/paolo/purple_whales_ws/install/micro_ros_msgs')])}
+[0.001138] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.005436] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.005881] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/paolo/purple_whales_ws/src/uros/micro_ros_msgs', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_msgs'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.014647] (micro_ros_msgs) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[0.099286] (-) TimerEvent: {}
+[0.200121] (-) TimerEvent: {}
+[0.221397] (micro_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300177] (-) TimerEvent: {}
+[0.400640] (-) TimerEvent: {}
+[0.501162] (-) TimerEvent: {}
+[0.601609] (-) TimerEvent: {}
+[0.702671] (-) TimerEvent: {}
+[0.803314] (-) TimerEvent: {}
+[0.904068] (-) TimerEvent: {}
+[0.980672] (micro_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004402] (-) TimerEvent: {}
+[1.105274] (-) TimerEvent: {}
+[1.206506] (-) TimerEvent: {}
+[1.307315] (-) TimerEvent: {}
+[1.407668] (-) TimerEvent: {}
+[1.508006] (-) TimerEvent: {}
+[1.608292] (-) TimerEvent: {}
+[1.629745] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.708531] (-) TimerEvent: {}
+[1.808965] (-) TimerEvent: {}
+[1.829956] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.835835] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.836664] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.836764] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.838985] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.909176] (-) TimerEvent: {}
+[2.009591] (-) TimerEvent: {}
+[2.064278] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.070360] (micro_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.071147] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.071241] (micro_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.073621] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.109830] (-) TimerEvent: {}
+[2.210241] (-) TimerEvent: {}
+[2.226835] (micro_ros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.310439] (-) TimerEvent: {}
+[2.311605] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.316708] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.326110] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.410631] (-) TimerEvent: {}
+[2.511049] (-) TimerEvent: {}
+[2.611346] (-) TimerEvent: {}
+[2.634645] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.686629] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.711467] (-) TimerEvent: {}
+[2.811889] (-) TimerEvent: {}
+[2.912483] (-) TimerEvent: {}
+[2.975545] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.013060] (-) TimerEvent: {}
+[3.113647] (-) TimerEvent: {}
+[3.179174] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.214054] (-) TimerEvent: {}
+[3.314653] (-) TimerEvent: {}
+[3.415463] (-) TimerEvent: {}
+[3.425253] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.515875] (-) TimerEvent: {}
+[3.616836] (-) TimerEvent: {}
+[3.654394] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.656755] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.716971] (-) TimerEvent: {}
+[3.817560] (-) TimerEvent: {}
+[3.918528] (-) TimerEvent: {}
+[4.019091] (-) TimerEvent: {}
+[4.119625] (-) TimerEvent: {}
+[4.220437] (-) TimerEvent: {}
+[4.306685] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.307261] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.307306] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.307336] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.320771] (-) TimerEvent: {}
+[4.327760] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.420975] (-) TimerEvent: {}
+[4.422990] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.426910] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.431444] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.443397] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.471658] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[4.474565] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_msgs\n'}
+[4.479257] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[4.480742] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[4.481121] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolo/purple_whales_ws/build/micro_ros_msgs', '--', '-j20', '-l20'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[4.513882] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.521344] (-) TimerEvent: {}
+[4.525305] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.538237] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[4.621446] (-) TimerEvent: {}
+[4.722509] (-) TimerEvent: {}
+[4.758680] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.759026] (micro_ros_msgs) StdoutLine: {'line': b'creating micro_ros_msgs.egg-info\n'}
+[4.759162] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[4.759285] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[4.759513] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[4.759648] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.761137] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.761606] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[4.813588] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[4.822700] (-) TimerEvent: {}
+[4.917867] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__cpp\n'}
+[4.922889] (-) TimerEvent: {}
+[4.924566] (micro_ros_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.925787] (micro_ros_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.926140] (micro_ros_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.938494] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o\x1b[0m\n'}
+[4.938932] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o\x1b[0m\n'}
+[4.939572] (micro_ros_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[5.023039] (-) TimerEvent: {}
+[5.029915] (micro_ros_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.123238] (-) TimerEvent: {}
+[5.223608] (-) TimerEvent: {}
+[5.292857] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[5.293621] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o\x1b[0m\n'}
+[5.293990] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[5.294086] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[5.294164] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o\x1b[0m\n'}
+[5.294240] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o\x1b[0m\n'}
+[5.294315] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[5.294387] (micro_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[5.294456] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o\x1b[0m\n'}
+[5.297233] (micro_ros_msgs) StdoutLine: {'line': b'[ 38%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[5.303351] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.303597] (micro_ros_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.307593] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.323956] (-) TimerEvent: {}
+[5.425144] (-) TimerEvent: {}
+[5.525861] (-) TimerEvent: {}
+[5.627153] (-) TimerEvent: {}
+[5.727884] (-) TimerEvent: {}
+[5.765087] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o\x1b[0m\n'}
+[5.765492] (micro_ros_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o\x1b[0m\n'}
+[5.766045] (micro_ros_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[5.793447] (micro_ros_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.811130] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.815189] (micro_ros_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o\x1b[0m\n'}
+[5.815518] (micro_ros_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[5.816098] (micro_ros_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o\x1b[0m\n'}
+[5.828268] (-) TimerEvent: {}
+[5.842032] (micro_ros_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o\x1b[0m\n'}
+[5.842480] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[5.842639] (micro_ros_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o\x1b[0m\n'}
+[5.868477] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.928364] (-) TimerEvent: {}
+[6.028858] (-) TimerEvent: {}
+[6.074210] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[6.085788] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[6.098705] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.128996] (-) TimerEvent: {}
+[6.151524] (micro_ros_msgs) StdoutLine: {'line': b'[ 72%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[6.197748] (micro_ros_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.229173] (-) TimerEvent: {}
+[6.322381] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.329463] (-) TimerEvent: {}
+[6.401998] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.429977] (-) TimerEvent: {}
+[6.464919] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.530539] (-) TimerEvent: {}
+[6.581938] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[6.604871] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[6.615958] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.630955] (-) TimerEvent: {}
+[6.731904] (-) TimerEvent: {}
+[6.832228] (-) TimerEvent: {}
+[6.932838] (-) TimerEvent: {}
+[7.033683] (-) TimerEvent: {}
+[7.050493] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[7.066818] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o\x1b[0m\n'}
+[7.067441] (micro_ros_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o\x1b[0m\n'}
+[7.067491] (micro_ros_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o\x1b[0m\n'}
+[7.134076] (-) TimerEvent: {}
+[7.217983] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[7.234418] (-) TimerEvent: {}
+[7.335353] (-) TimerEvent: {}
+[7.405263] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[7.422984] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.423327] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.423480] (micro_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.435885] (-) TimerEvent: {}
+[7.522777] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.522975] (micro_ros_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.525541] (micro_ros_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.536151] (-) TimerEvent: {}
+[7.637071] (-) TimerEvent: {}
+[7.656566] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.656893] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[7.696211] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.704980] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[7.737188] (-) TimerEvent: {}
+[7.768416] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[7.773715] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.779138] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.779565] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[7.779785] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.780013] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.780118] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[7.780354] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[7.780418] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[7.780450] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.781080] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[7.781213] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[7.781269] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[7.781302] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[7.781396] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[7.781469] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[7.781601] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[7.781653] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[7.781690] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[7.781748] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[7.781993] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[7.782078] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[7.782211] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.782280] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[7.782346] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[7.782977] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[7.783090] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""\n'}
+[7.783176] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.783336] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.783600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.783670] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[7.783745] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[7.783806] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[7.783908] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.783950] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.784062] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.784611] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.784766] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.784871] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.784955] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[7.785650] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[7.786029] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[7.786167] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[7.786265] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[7.786418] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[7.786550] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.786688] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.786848] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.787026] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[7.787183] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.787277] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.787362] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.787774] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[7.787833] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.787870] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[7.787907] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[7.787943] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[7.788592] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[7.788694] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[7.788729] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[7.788760] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[7.788821] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[7.788857] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[7.788940] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[7.788999] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[7.789033] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.789110] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.789148] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.789236] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.789283] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.789366] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[7.789487] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.789960] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.790196] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.790361] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.790481] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[7.790583] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[7.790685] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[7.790936] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.790993] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[7.791052] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[7.791083] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[7.791122] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.791150] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.791177] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.791206] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.791236] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[7.791266] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.791292] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[7.791323] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[7.791374] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info\n'}
+[7.791681] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.791918] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[7.792087] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[7.792268] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.792514] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs\n'}
+[7.792557] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.792589] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.792688] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg\n'}
+[7.792851] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[7.793003] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[7.793120] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[7.793227] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[7.793359] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[7.793541] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[7.793736] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[7.793837] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[7.793946] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[7.794056] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.794161] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.794297] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.794354] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.830786] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[7.831363] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[7.831418] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[7.831454] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py'...\n"}
+[7.831490] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py'...\n"}
+[7.831521] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py'...\n"}
+[7.831551] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py'...\n"}
+[7.837740] (-) TimerEvent: {}
+[7.844838] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.845197] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.845358] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.845400] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.845431] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.845461] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.845489] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[7.845697] (micro_ros_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""\n'}
+[7.845780] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[7.845899] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[7.846117] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[7.846190] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[7.846224] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[7.846254] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[7.846281] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[7.846433] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[7.846647] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[7.846770] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[7.846921] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[7.847208] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[7.847273] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[7.847400] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[7.847493] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[7.847588] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[7.847680] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[7.847772] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[7.847865] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[7.847959] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.848052] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.848259] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.848491] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.848622] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.848792] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.848916] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.849034] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.849107] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.849145] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.849253] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.849288] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.849318] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.849347] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.849374] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.849402] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.849429] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.849457] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.849485] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.849512] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.849539] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.849565] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.849601] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.849627] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[7.849654] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[7.849679] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[7.850551] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[7.937834] (-) TimerEvent: {}
+[7.944350] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[7.946120] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[8.038212] (-) TimerEvent: {}
+[8.114732] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[8.115422] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/paolo/purple_whales_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DUAGENT_BUILD_EXECUTABLE=OFF', '-DUAGENT_P2P_PROFILE=OFF', '--no-warn-unused-cli', '-DCMAKE_INSTALL_PREFIX=/home/paolo/purple_whales_ws/install/micro_ros_agent'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[8.119814] (micro_ros_agent) StdoutLine: {'line': b'Not searching for unused variables given on the command line.\n'}
+[8.138697] (-) TimerEvent: {}
+[8.239368] (-) TimerEvent: {}
+[8.296701] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.339529] (-) TimerEvent: {}
+[8.440174] (-) TimerEvent: {}
+[8.541098] (-) TimerEvent: {}
+[8.641837] (-) TimerEvent: {}
+[8.742973] (-) TimerEvent: {}
+[8.843714] (-) TimerEvent: {}
+[8.944440] (-) TimerEvent: {}
+[9.043248] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.044637] (-) TimerEvent: {}
+[9.145401] (-) TimerEvent: {}
+[9.244062] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.245526] (-) TimerEvent: {}
+[9.249910] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.250457] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.250618] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.345690] (-) TimerEvent: {}
+[9.446706] (-) TimerEvent: {}
+[9.451350] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.546892] (-) TimerEvent: {}
+[9.647505] (-) TimerEvent: {}
+[9.748714] (-) TimerEvent: {}
+[9.849594] (-) TimerEvent: {}
+[9.950675] (-) TimerEvent: {}
+[10.027714] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.050896] (-) TimerEvent: {}
+[10.151492] (-) TimerEvent: {}
+[10.209658] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.215066] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.215490] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.215577] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.251876] (-) TimerEvent: {}
+[10.352978] (-) TimerEvent: {}
+[10.453885] (-) TimerEvent: {}
+[10.554533] (-) TimerEvent: {}
+[10.655512] (-) TimerEvent: {}
+[10.756674] (-) TimerEvent: {}
+[10.857491] (-) TimerEvent: {}
+[10.958086] (-) TimerEvent: {}
+[11.058654] (-) TimerEvent: {}
+[11.159805] (-) TimerEvent: {}
+[11.260465] (-) TimerEvent: {}
+[11.360925] (-) TimerEvent: {}
+[11.461268] (-) TimerEvent: {}
+[11.561799] (-) TimerEvent: {}
+[11.662560] (-) TimerEvent: {}
+[11.763030] (-) TimerEvent: {}
+[11.863315] (-) TimerEvent: {}
+[11.963638] (-) TimerEvent: {}
+[12.064337] (-) TimerEvent: {}
+[12.165353] (-) TimerEvent: {}
+[12.265823] (-) TimerEvent: {}
+[12.366442] (-) TimerEvent: {}
+[12.466881] (-) TimerEvent: {}
+[12.567550] (-) TimerEvent: {}
+[12.667613] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.667990] (-) TimerEvent: {}
+[12.670263] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[12.670653] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_agent\n'}
+[12.679368] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[12.684728] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[12.684809] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paolo/purple_whales_ws/build/micro_ros_agent', '--', '-j20', '-l20'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[12.724872] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[12.768809] (-) TimerEvent: {}
+[12.788521] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[12.812585] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[12.869280] (-) TimerEvent: {}
+[12.970006] (-) TimerEvent: {}
+[13.070703] (-) TimerEvent: {}
+[13.171139] (-) TimerEvent: {}
+[13.271458] (-) TimerEvent: {}
+[13.371950] (-) TimerEvent: {}
+[13.472425] (-) TimerEvent: {}
+[13.573121] (-) TimerEvent: {}
+[13.673835] (-) TimerEvent: {}
+[13.775281] (-) TimerEvent: {}
+[13.875911] (-) TimerEvent: {}
+[13.976417] (-) TimerEvent: {}
+[14.077018] (-) TimerEvent: {}
+[14.177810] (-) TimerEvent: {}
+[14.278952] (-) TimerEvent: {}
+[14.379615] (-) TimerEvent: {}
+[14.480536] (-) TimerEvent: {}
+[14.581011] (-) TimerEvent: {}
+[14.681865] (-) TimerEvent: {}
+[14.782637] (-) TimerEvent: {}
+[14.883987] (-) TimerEvent: {}
+[14.985545] (-) TimerEvent: {}
+[15.087094] (-) TimerEvent: {}
+[15.188532] (-) TimerEvent: {}
+[15.289761] (-) TimerEvent: {}
+[15.390913] (-) TimerEvent: {}
+[15.491786] (-) TimerEvent: {}
+[15.593242] (-) TimerEvent: {}
+[15.694263] (-) TimerEvent: {}
+[15.794954] (-) TimerEvent: {}
+[15.895619] (-) TimerEvent: {}
+[15.996568] (-) TimerEvent: {}
+[16.097602] (-) TimerEvent: {}
+[16.198810] (-) TimerEvent: {}
+[16.299661] (-) TimerEvent: {}
+[16.400661] (-) TimerEvent: {}
+[16.501730] (-) TimerEvent: {}
+[16.602350] (-) TimerEvent: {}
+[16.703821] (-) TimerEvent: {}
+[16.805059] (-) TimerEvent: {}
+[16.905678] (-) TimerEvent: {}
+[17.006989] (-) TimerEvent: {}
+[17.107852] (-) TimerEvent: {}
+[17.208180] (-) TimerEvent: {}
+[17.308494] (-) TimerEvent: {}
+[17.409060] (-) TimerEvent: {}
+[17.510418] (-) TimerEvent: {}
+[17.611677] (-) TimerEvent: {}
+[17.712758] (-) TimerEvent: {}
+[17.813473] (-) TimerEvent: {}
+[17.878386] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[17.879034] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[17.913539] (-) TimerEvent: {}
+[17.923584] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[18.014098] (-) TimerEvent: {}
+[18.115648] (-) TimerEvent: {}
+[18.217093] (-) TimerEvent: {}
+[18.317686] (-) TimerEvent: {}
+[18.390685] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[18.418414] (-) TimerEvent: {}
+[18.422423] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[18.446254] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[18.453456] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/paolo/purple_whales_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[18.518828] (-) TimerEvent: {}
+[18.606440] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[18.618995] (-) TimerEvent: {}
+[18.719814] (-) TimerEvent: {}
+[18.820660] (-) TimerEvent: {}
+[18.921549] (-) TimerEvent: {}
+[19.022605] (-) TimerEvent: {}
+[19.122912] (-) TimerEvent: {}
+[19.179788] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.223067] (-) TimerEvent: {}
+[19.323769] (-) TimerEvent: {}
+[19.400516] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.406621] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[19.407134] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.407222] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.424356] (-) TimerEvent: {}
+[19.525318] (-) TimerEvent: {}
+[19.625868] (-) TimerEvent: {}
+[19.639688] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[19.726329] (-) TimerEvent: {}
+[19.827305] (-) TimerEvent: {}
+[19.927931] (-) TimerEvent: {}
+[20.028690] (-) TimerEvent: {}
+[20.129694] (-) TimerEvent: {}
+[20.207961] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.230279] (-) TimerEvent: {}
+[20.331227] (-) TimerEvent: {}
+[20.431583] (-) TimerEvent: {}
+[20.446404] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.450766] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.451141] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.451350] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.461058] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[20.531708] (-) TimerEvent: {}
+[20.632245] (-) TimerEvent: {}
+[20.662342] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[20.663043] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[20.732339] (-) TimerEvent: {}
+[20.832922] (-) TimerEvent: {}
+[20.933609] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[20.933963] (-) TimerEvent: {}
+[20.934339] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[20.949692] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.955571] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[20.956359] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[20.974342] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[21.012049] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[21.034461] (-) TimerEvent: {}
+[21.077112] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[21.102224] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[21.125076] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[21.134531] (-) TimerEvent: {}
+[21.150589] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[21.159579] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/paolo/purple_whales_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[21.164323] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[21.234702] (-) TimerEvent: {}
+[21.335986] (-) TimerEvent: {}
+[21.436777] (-) TimerEvent: {}
+[21.537548] (-) TimerEvent: {}
+[21.638866] (-) TimerEvent: {}
+[21.739816] (-) TimerEvent: {}
+[21.840927] (-) TimerEvent: {}
+[21.942203] (-) TimerEvent: {}
+[22.042897] (-) TimerEvent: {}
+[22.143942] (-) TimerEvent: {}
+[22.245043] (-) TimerEvent: {}
+[22.345696] (-) TimerEvent: {}
+[22.446594] (-) TimerEvent: {}
+[22.547239] (-) TimerEvent: {}
+[22.648080] (-) TimerEvent: {}
+[22.749043] (-) TimerEvent: {}
+[22.849550] (-) TimerEvent: {}
+[22.950311] (-) TimerEvent: {}
+[23.051097] (-) TimerEvent: {}
+[23.151783] (-) TimerEvent: {}
+[23.252428] (-) TimerEvent: {}
+[23.353331] (-) TimerEvent: {}
+[23.454167] (-) TimerEvent: {}
+[23.554854] (-) TimerEvent: {}
+[23.655731] (-) TimerEvent: {}
+[23.756347] (-) TimerEvent: {}
+[23.857288] (-) TimerEvent: {}
+[23.958020] (-) TimerEvent: {}
+[24.058617] (-) TimerEvent: {}
+[24.159683] (-) TimerEvent: {}
+[24.260778] (-) TimerEvent: {}
+[24.362139] (-) TimerEvent: {}
+[24.463128] (-) TimerEvent: {}
+[24.564489] (-) TimerEvent: {}
+[24.576439] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[24.576774] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[24.576815] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[24.576848] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[24.576877] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[24.576912] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[24.576941] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[24.576971] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[24.576999] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[24.577027] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[24.577056] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[24.577085] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[24.664647] (-) TimerEvent: {}
+[24.765540] (-) TimerEvent: {}
+[24.866256] (-) TimerEvent: {}
+[24.966908] (-) TimerEvent: {}
+[25.068101] (-) TimerEvent: {}
+[25.168830] (-) TimerEvent: {}
+[25.269549] (-) TimerEvent: {}
+[25.370092] (-) TimerEvent: {}
+[25.470802] (-) TimerEvent: {}
+[25.571464] (-) TimerEvent: {}
+[25.671916] (-) TimerEvent: {}
+[25.772512] (-) TimerEvent: {}
+[25.789010] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[25.803028] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.812506] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[25.813169] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[25.839977] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[25.873069] (-) TimerEvent: {}
+[25.887876] (micro_ros_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[25.888322] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[25.888441] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[25.888503] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[25.889056] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[25.889429] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[25.889539] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[25.889601] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[25.889768] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[25.890487] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[25.891125] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[25.891567] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[25.891943] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[25.892185] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[25.892310] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[25.892422] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[25.892524] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[25.892622] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[25.892960] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[25.898696] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[25.973177] (-) TimerEvent: {}
+[26.073878] (-) TimerEvent: {}
+[26.177444] (-) TimerEvent: {}
+[26.279465] (-) TimerEvent: {}
+[26.380208] (-) TimerEvent: {}
+[26.480666] (-) TimerEvent: {}
+[26.581286] (-) TimerEvent: {}
+[26.683854] (-) TimerEvent: {}
+[26.785095] (-) TimerEvent: {}
+[26.888243] (-) TimerEvent: {}
+[26.994881] (-) TimerEvent: {}
+[27.095854] (-) TimerEvent: {}
+[27.129961] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[27.196325] (-) TimerEvent: {}
+[27.202085] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[27.214725] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[27.296695] (-) TimerEvent: {}
+[27.397680] (-) TimerEvent: {}
+[27.503917] (-) TimerEvent: {}
+[27.604399] (-) TimerEvent: {}
+[27.705958] (-) TimerEvent: {}
+[27.811082] (-) TimerEvent: {}
+[27.832437] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[27.911490] (-) TimerEvent: {}
+[28.013727] (-) TimerEvent: {}
+[28.116319] (-) TimerEvent: {}
+[28.217120] (-) TimerEvent: {}
+[28.318376] (-) TimerEvent: {}
+[28.423652] (-) TimerEvent: {}
+[28.525688] (-) TimerEvent: {}
+[28.627566] (-) TimerEvent: {}
+[28.728856] (-) TimerEvent: {}
+[28.830630] (-) TimerEvent: {}
+[28.839772] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[28.894081] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[28.930753] (-) TimerEvent: {}
+[28.952387] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[29.031192] (-) TimerEvent: {}
+[29.046814] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[29.131498] (-) TimerEvent: {}
+[29.233068] (-) TimerEvent: {}
+[29.339838] (-) TimerEvent: {}
+[29.440619] (-) TimerEvent: {}
+[29.541039] (-) TimerEvent: {}
+[29.641475] (-) TimerEvent: {}
+[29.742693] (-) TimerEvent: {}
+[29.849041] (-) TimerEvent: {}
+[29.950378] (-) TimerEvent: {}
+[30.055765] (-) TimerEvent: {}
+[30.074432] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[30.151614] (-) TimerEvent: {}
+[30.256076] (-) TimerEvent: {}
+[30.357695] (-) TimerEvent: {}
+[30.458131] (-) TimerEvent: {}
+[30.558952] (-) TimerEvent: {}
+[30.661337] (-) TimerEvent: {}
+[30.762351] (-) TimerEvent: {}
+[30.863272] (-) TimerEvent: {}
+[30.965776] (-) TimerEvent: {}
+[31.066511] (-) TimerEvent: {}
+[31.168092] (-) TimerEvent: {}
+[31.269444] (-) TimerEvent: {}
+[31.370468] (-) TimerEvent: {}
+[31.470885] (-) TimerEvent: {}
+[31.571263] (-) TimerEvent: {}
+[31.671877] (-) TimerEvent: {}
+[31.772944] (-) TimerEvent: {}
+[31.877767] (-) TimerEvent: {}
+[31.978561] (-) TimerEvent: {}
+[32.079470] (-) TimerEvent: {}
+[32.181471] (-) TimerEvent: {}
+[32.288783] (-) TimerEvent: {}
+[32.391218] (-) TimerEvent: {}
+[32.493654] (-) TimerEvent: {}
+[32.599731] (-) TimerEvent: {}
+[32.709889] (-) TimerEvent: {}
+[32.812676] (-) TimerEvent: {}
+[32.915911] (-) TimerEvent: {}
+[33.016523] (-) TimerEvent: {}
+[33.117343] (-) TimerEvent: {}
+[33.218315] (-) TimerEvent: {}
+[33.321080] (-) TimerEvent: {}
+[33.421901] (-) TimerEvent: {}
+[33.471418] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[33.525071] (-) TimerEvent: {}
+[33.625898] (-) TimerEvent: {}
+[33.731122] (-) TimerEvent: {}
+[33.832555] (-) TimerEvent: {}
+[33.933486] (-) TimerEvent: {}
+[34.038309] (-) TimerEvent: {}
+[34.140264] (-) TimerEvent: {}
+[34.243060] (-) TimerEvent: {}
+[34.345977] (-) TimerEvent: {}
+[34.375298] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[34.447807] (-) TimerEvent: {}
+[34.547219] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[34.548446] (-) TimerEvent: {}
+[34.649454] (-) TimerEvent: {}
+[34.750422] (-) TimerEvent: {}
+[34.851855] (-) TimerEvent: {}
+[34.953302] (-) TimerEvent: {}
+[35.055476] (-) TimerEvent: {}
+[35.156637] (-) TimerEvent: {}
+[35.257433] (-) TimerEvent: {}
+[35.362387] (-) TimerEvent: {}
+[35.380932] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[35.462325] (-) TimerEvent: {}
+[35.562710] (-) TimerEvent: {}
+[35.663144] (-) TimerEvent: {}
+[35.763907] (-) TimerEvent: {}
+[35.865132] (-) TimerEvent: {}
+[35.910226] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[35.915130] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[35.948183] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[35.965700] (-) TimerEvent: {}
+[36.067031] (-) TimerEvent: {}
+[36.167838] (-) TimerEvent: {}
+[36.262380] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[36.268259] (-) TimerEvent: {}
+[36.369512] (-) TimerEvent: {}
+[36.471049] (-) TimerEvent: {}
+[36.571935] (-) TimerEvent: {}
+[36.673313] (-) TimerEvent: {}
+[36.696231] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[36.742411] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[36.773743] (-) TimerEvent: {}
+[36.875214] (-) TimerEvent: {}
+[36.976268] (-) TimerEvent: {}
+[37.077466] (-) TimerEvent: {}
+[37.178475] (-) TimerEvent: {}
+[37.278862] (-) TimerEvent: {}
+[37.379227] (-) TimerEvent: {}
+[37.386764] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[37.432577] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[37.479576] (-) TimerEvent: {}
+[37.582728] (-) TimerEvent: {}
+[37.683848] (-) TimerEvent: {}
+[37.784860] (-) TimerEvent: {}
+[37.890158] (-) TimerEvent: {}
+[37.990653] (-) TimerEvent: {}
+[38.091241] (-) TimerEvent: {}
+[38.194190] (-) TimerEvent: {}
+[38.294737] (-) TimerEvent: {}
+[38.395590] (-) TimerEvent: {}
+[38.496629] (-) TimerEvent: {}
+[38.597280] (-) TimerEvent: {}
+[38.703333] (-) TimerEvent: {}
+[38.804720] (-) TimerEvent: {}
+[38.905348] (-) TimerEvent: {}
+[39.006555] (-) TimerEvent: {}
+[39.108032] (-) TimerEvent: {}
+[39.208952] (-) TimerEvent: {}
+[39.310088] (-) TimerEvent: {}
+[39.410608] (-) TimerEvent: {}
+[39.514744] (-) TimerEvent: {}
+[39.617152] (-) TimerEvent: {}
+[39.717755] (-) TimerEvent: {}
+[39.818293] (-) TimerEvent: {}
+[39.919104] (-) TimerEvent: {}
+[40.020459] (-) TimerEvent: {}
+[40.121029] (-) TimerEvent: {}
+[40.221648] (-) TimerEvent: {}
+[40.322348] (-) TimerEvent: {}
+[40.423967] (-) TimerEvent: {}
+[40.524876] (-) TimerEvent: {}
+[40.625459] (-) TimerEvent: {}
+[40.726097] (-) TimerEvent: {}
+[40.826819] (-) TimerEvent: {}
+[40.927979] (-) TimerEvent: {}
+[41.028809] (-) TimerEvent: {}
+[41.129980] (-) TimerEvent: {}
+[41.230464] (-) TimerEvent: {}
+[41.331035] (-) TimerEvent: {}
+[41.432139] (-) TimerEvent: {}
+[41.532806] (-) TimerEvent: {}
+[41.633493] (-) TimerEvent: {}
+[41.734297] (-) TimerEvent: {}
+[41.835512] (-) TimerEvent: {}
+[41.935997] (-) TimerEvent: {}
+[42.036808] (-) TimerEvent: {}
+[42.137821] (-) TimerEvent: {}
+[42.238830] (-) TimerEvent: {}
+[42.339648] (-) TimerEvent: {}
+[42.440725] (-) TimerEvent: {}
+[42.541539] (-) TimerEvent: {}
+[42.642676] (-) TimerEvent: {}
+[42.743807] (-) TimerEvent: {}
+[42.844560] (-) TimerEvent: {}
+[42.945538] (-) TimerEvent: {}
+[43.046174] (-) TimerEvent: {}
+[43.146620] (-) TimerEvent: {}
+[43.247323] (-) TimerEvent: {}
+[43.348443] (-) TimerEvent: {}
+[43.448890] (-) TimerEvent: {}
+[43.550027] (-) TimerEvent: {}
+[43.651318] (-) TimerEvent: {}
+[43.752351] (-) TimerEvent: {}
+[43.852894] (-) TimerEvent: {}
+[43.953338] (-) TimerEvent: {}
+[44.054245] (-) TimerEvent: {}
+[44.155716] (-) TimerEvent: {}
+[44.256805] (-) TimerEvent: {}
+[44.357804] (-) TimerEvent: {}
+[44.458279] (-) TimerEvent: {}
+[44.559203] (-) TimerEvent: {}
+[44.660387] (-) TimerEvent: {}
+[44.761723] (-) TimerEvent: {}
+[44.863255] (-) TimerEvent: {}
+[44.964093] (-) TimerEvent: {}
+[45.064864] (-) TimerEvent: {}
+[45.166200] (-) TimerEvent: {}
+[45.267158] (-) TimerEvent: {}
+[45.367901] (-) TimerEvent: {}
+[45.469248] (-) TimerEvent: {}
+[45.569924] (-) TimerEvent: {}
+[45.670600] (-) TimerEvent: {}
+[45.771633] (-) TimerEvent: {}
+[45.872496] (-) TimerEvent: {}
+[45.973320] (-) TimerEvent: {}
+[46.073907] (-) TimerEvent: {}
+[46.174460] (-) TimerEvent: {}
+[46.275330] (-) TimerEvent: {}
+[46.376356] (-) TimerEvent: {}
+[46.477229] (-) TimerEvent: {}
+[46.578404] (-) TimerEvent: {}
+[46.679227] (-) TimerEvent: {}
+[46.780342] (-) TimerEvent: {}
+[46.881400] (-) TimerEvent: {}
+[46.981705] (-) TimerEvent: {}
+[47.082511] (-) TimerEvent: {}
+[47.183874] (-) TimerEvent: {}
+[47.284555] (-) TimerEvent: {}
+[47.384990] (-) TimerEvent: {}
+[47.485397] (-) TimerEvent: {}
+[47.585787] (-) TimerEvent: {}
+[47.686782] (-) TimerEvent: {}
+[47.787977] (-) TimerEvent: {}
+[47.888349] (-) TimerEvent: {}
+[47.988708] (-) TimerEvent: {}
+[48.089234] (-) TimerEvent: {}
+[48.190042] (-) TimerEvent: {}
+[48.291039] (-) TimerEvent: {}
+[48.391385] (-) TimerEvent: {}
+[48.491785] (-) TimerEvent: {}
+[48.592378] (-) TimerEvent: {}
+[48.692898] (-) TimerEvent: {}
+[48.793270] (-) TimerEvent: {}
+[48.893836] (-) TimerEvent: {}
+[48.994847] (-) TimerEvent: {}
+[49.038166] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[49.095007] (-) TimerEvent: {}
+[49.195420] (-) TimerEvent: {}
+[49.296297] (-) TimerEvent: {}
+[49.396693] (-) TimerEvent: {}
+[49.497465] (-) TimerEvent: {}
+[49.599002] (-) TimerEvent: {}
+[49.611085] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[49.632488] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[49.650268] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[49.681636] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[49.700635] (-) TimerEvent: {}
+[49.710337] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[49.746814] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[49.785699] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[49.800635] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[49.800924] (-) TimerEvent: {}
+[49.805941] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[49.806247] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[49.808316] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[49.808500] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[49.808603] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[49.808697] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[49.808827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[49.809005] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[49.809078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[49.809247] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[49.809437] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[49.809686] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[49.809803] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[49.809903] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[49.810004] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[49.810046] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[49.810230] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[49.810310] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[49.810411] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[49.810512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[49.810614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[49.810716] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[49.810885] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[49.811062] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[49.811205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[49.811394] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[49.811443] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[49.811523] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[49.811561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[49.811663] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[49.811840] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[49.811900] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[49.811933] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[49.812056] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[49.812105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[49.812325] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[49.812371] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[49.812531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[49.812747] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[49.812813] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[49.812849] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[49.812959] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[49.813035] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[49.813182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[49.813249] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[49.813432] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[49.813698] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[49.813884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[49.814108] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[49.814218] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[49.814511] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[49.814620] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[49.814827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[49.815349] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[49.815511] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[49.815653] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[49.815754] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[49.815830] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[49.815864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[49.815896] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[49.815992] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[49.816268] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[49.816507] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[49.817379] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[49.817605] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[49.817913] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[49.818123] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[49.818333] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[49.818442] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[49.818519] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[49.818618] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[49.818801] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[49.818874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[49.818928] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[49.818962] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[49.818996] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[49.819315] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[49.819434] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[49.819475] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[49.819518] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[49.819641] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[49.819865] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[49.819948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[49.820218] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[49.820341] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[49.820665] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[49.820783] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[49.820853] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[49.820914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[49.821023] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[49.821295] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[49.821708] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[49.821964] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[49.822302] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[49.822483] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[49.822573] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[49.822813] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[49.822936] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[49.823038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[49.823207] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[49.823270] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[49.823303] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[49.823540] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[49.823632] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[49.823811] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[49.823942] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[49.824240] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[49.824311] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[49.824441] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[49.824560] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[49.824688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[49.824800] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[49.824997] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[49.825339] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[49.826011] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[49.826271] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[49.826568] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[49.826653] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[49.826749] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[49.826885] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[49.827011] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[49.827119] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[49.827255] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[49.827835] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[49.827979] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[49.828018] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[49.828048] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[49.828078] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[49.828126] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[49.828159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[49.828192] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[49.828220] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[49.828249] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[49.840766] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[49.872349] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[49.891817] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[49.901797] (-) TimerEvent: {}
+[49.956678] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[49.991142] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[50.001895] (-) TimerEvent: {}
+[50.012351] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[50.035284] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[50.040779] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/paolo/purple_whales_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[50.045167] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[50.102307] (-) TimerEvent: {}
+[50.199203] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[50.202482] (-) TimerEvent: {}
+[50.302876] (-) TimerEvent: {}
+[50.403188] (-) TimerEvent: {}
+[50.503797] (-) TimerEvent: {}
+[50.604979] (-) TimerEvent: {}
+[50.705560] (-) TimerEvent: {}
+[50.806495] (-) TimerEvent: {}
+[50.907199] (-) TimerEvent: {}
+[51.007532] (-) TimerEvent: {}
+[51.107835] (-) TimerEvent: {}
+[51.208453] (-) TimerEvent: {}
+[51.308915] (-) TimerEvent: {}
+[51.409469] (-) TimerEvent: {}
+[51.510556] (-) TimerEvent: {}
+[51.611579] (-) TimerEvent: {}
+[51.712410] (-) TimerEvent: {}
+[51.812908] (-) TimerEvent: {}
+[51.913648] (-) TimerEvent: {}
+[52.014768] (-) TimerEvent: {}
+[52.115545] (-) TimerEvent: {}
+[52.216708] (-) TimerEvent: {}
+[52.317776] (-) TimerEvent: {}
+[52.418408] (-) TimerEvent: {}
+[52.519053] (-) TimerEvent: {}
+[52.620092] (-) TimerEvent: {}
+[52.720979] (-) TimerEvent: {}
+[52.821360] (-) TimerEvent: {}
+[52.921764] (-) TimerEvent: {}
+[53.022477] (-) TimerEvent: {}
+[53.123718] (-) TimerEvent: {}
+[53.224379] (-) TimerEvent: {}
+[53.324698] (-) TimerEvent: {}
+[53.425367] (-) TimerEvent: {}
+[53.526630] (-) TimerEvent: {}
+[53.627587] (-) TimerEvent: {}
+[53.728242] (-) TimerEvent: {}
+[53.828840] (-) TimerEvent: {}
+[53.929202] (-) TimerEvent: {}
+[54.029693] (-) TimerEvent: {}
+[54.130329] (-) TimerEvent: {}
+[54.231248] (-) TimerEvent: {}
+[54.331951] (-) TimerEvent: {}
+[54.432915] (-) TimerEvent: {}
+[54.533224] (-) TimerEvent: {}
+[54.633598] (-) TimerEvent: {}
+[54.734342] (-) TimerEvent: {}
+[54.835232] (-) TimerEvent: {}
+[54.936580] (-) TimerEvent: {}
+[55.037359] (-) TimerEvent: {}
+[55.138461] (-) TimerEvent: {}
+[55.238966] (-) TimerEvent: {}
+[55.339457] (-) TimerEvent: {}
+[55.439859] (-) TimerEvent: {}
+[55.540182] (-) TimerEvent: {}
+[55.640798] (-) TimerEvent: {}
+[55.741343] (-) TimerEvent: {}
+[55.805704] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[55.814439] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[55.841570] (-) TimerEvent: {}
+[55.942763] (-) TimerEvent: {}
+[56.013396] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[56.014043] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[56.043157] (-) TimerEvent: {}
+[56.144028] (-) TimerEvent: {}
+[56.245516] (-) TimerEvent: {}
+[56.260462] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[56.261256] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[56.264131] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.5 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[56.264957] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[56.345796] (-) TimerEvent: {}
+[56.446754] (-) TimerEvent: {}
+[56.547686] (-) TimerEvent: {}
+[56.648470] (-) TimerEvent: {}
+[56.749268] (-) TimerEvent: {}
+[56.849756] (-) TimerEvent: {}
+[56.950370] (-) TimerEvent: {}
+[57.051389] (-) TimerEvent: {}
+[57.151748] (-) TimerEvent: {}
+[57.252493] (-) TimerEvent: {}
+[57.353743] (-) TimerEvent: {}
+[57.454755] (-) TimerEvent: {}
+[57.555636] (-) TimerEvent: {}
+[57.656402] (-) TimerEvent: {}
+[57.757418] (-) TimerEvent: {}
+[57.858726] (-) TimerEvent: {}
+[57.959895] (-) TimerEvent: {}
+[58.060741] (-) TimerEvent: {}
+[58.161756] (-) TimerEvent: {}
+[58.262131] (-) TimerEvent: {}
+[58.362729] (-) TimerEvent: {}
+[58.463417] (-) TimerEvent: {}
+[58.564447] (-) TimerEvent: {}
+[58.665415] (-) TimerEvent: {}
+[58.765744] (-) TimerEvent: {}
+[58.866259] (-) TimerEvent: {}
+[58.965301] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.2 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[58.966425] (-) TimerEvent: {}
+[58.969775] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[59.066646] (-) TimerEvent: {}
+[59.167085] (-) TimerEvent: {}
+[59.188429] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[59.198977] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[59.204964] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[59.216009] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[59.242710] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[59.267205] (-) TimerEvent: {}
+[59.367589] (-) TimerEvent: {}
+[59.468219] (-) TimerEvent: {}
+[59.569051] (-) TimerEvent: {}
+[59.669335] (-) TimerEvent: {}
+[59.769620] (-) TimerEvent: {}
+[59.870134] (-) TimerEvent: {}
+[59.971366] (-) TimerEvent: {}
+[60.071944] (-) TimerEvent: {}
+[60.172556] (-) TimerEvent: {}
+[60.273065] (-) TimerEvent: {}
+[60.373420] (-) TimerEvent: {}
+[60.473885] (-) TimerEvent: {}
+[60.574569] (-) TimerEvent: {}
+[60.674915] (-) TimerEvent: {}
+[60.775325] (-) TimerEvent: {}
+[60.876377] (-) TimerEvent: {}
+[60.977477] (-) TimerEvent: {}
+[61.078210] (-) TimerEvent: {}
+[61.179459] (-) TimerEvent: {}
+[61.280379] (-) TimerEvent: {}
+[61.380698] (-) TimerEvent: {}
+[61.481094] (-) TimerEvent: {}
+[61.581541] (-) TimerEvent: {}
+[61.681914] (-) TimerEvent: {}
+[61.782729] (-) TimerEvent: {}
+[61.883983] (-) TimerEvent: {}
+[61.984582] (-) TimerEvent: {}
+[62.085183] (-) TimerEvent: {}
+[62.185486] (-) TimerEvent: {}
+[62.286047] (-) TimerEvent: {}
+[62.386876] (-) TimerEvent: {}
+[62.487918] (-) TimerEvent: {}
+[62.589162] (-) TimerEvent: {}
+[62.690370] (-) TimerEvent: {}
+[62.791028] (-) TimerEvent: {}
+[62.891376] (-) TimerEvent: {}
+[62.991666] (-) TimerEvent: {}
+[63.091977] (-) TimerEvent: {}
+[63.192301] (-) TimerEvent: {}
+[63.293022] (-) TimerEvent: {}
+[63.393967] (-) TimerEvent: {}
+[63.495429] (-) TimerEvent: {}
+[63.596656] (-) TimerEvent: {}
+[63.697961] (-) TimerEvent: {}
+[63.799148] (-) TimerEvent: {}
+[63.900317] (-) TimerEvent: {}
+[64.001456] (-) TimerEvent: {}
+[64.101922] (-) TimerEvent: {}
+[64.202322] (-) TimerEvent: {}
+[64.302680] (-) TimerEvent: {}
+[64.403260] (-) TimerEvent: {}
+[64.478550] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[64.479519] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[64.481216] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[64.481808] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/home/paolo/purple_whales_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[64.503506] (-) TimerEvent: {}
+[64.576224] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[64.582186] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[64.583141] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/paolo/purple_whales_ws/build/micro_ros_agent\n'}
+[64.604065] (-) TimerEvent: {}
+[64.610797] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[64.647587] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[64.647748] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[64.647784] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[64.647814] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[64.650546] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[64.704585] (-) TimerEvent: {}
+[64.805665] (-) TimerEvent: {}
+[64.906211] (-) TimerEvent: {}
+[65.006928] (-) TimerEvent: {}
+[65.107856] (-) TimerEvent: {}
+[65.208873] (-) TimerEvent: {}
+[65.309389] (-) TimerEvent: {}
+[65.409802] (-) TimerEvent: {}
+[65.510478] (-) TimerEvent: {}
+[65.611272] (-) TimerEvent: {}
+[65.712382] (-) TimerEvent: {}
+[65.813035] (-) TimerEvent: {}
+[65.913893] (-) TimerEvent: {}
+[66.014751] (-) TimerEvent: {}
+[66.115194] (-) TimerEvent: {}
+[66.215608] (-) TimerEvent: {}
+[66.316290] (-) TimerEvent: {}
+[66.417588] (-) TimerEvent: {}
+[66.518215] (-) TimerEvent: {}
+[66.618990] (-) TimerEvent: {}
+[66.720089] (-) TimerEvent: {}
+[66.820917] (-) TimerEvent: {}
+[66.921507] (-) TimerEvent: {}
+[67.021895] (-) TimerEvent: {}
+[67.122766] (-) TimerEvent: {}
+[67.223323] (-) TimerEvent: {}
+[67.324157] (-) TimerEvent: {}
+[67.425113] (-) TimerEvent: {}
+[67.526428] (-) TimerEvent: {}
+[67.627559] (-) TimerEvent: {}
+[67.728190] (-) TimerEvent: {}
+[67.828551] (-) TimerEvent: {}
+[67.928932] (-) TimerEvent: {}
+[68.029287] (-) TimerEvent: {}
+[68.129742] (-) TimerEvent: {}
+[68.230307] (-) TimerEvent: {}
+[68.330637] (-) TimerEvent: {}
+[68.431476] (-) TimerEvent: {}
+[68.532379] (-) TimerEvent: {}
+[68.633239] (-) TimerEvent: {}
+[68.733621] (-) TimerEvent: {}
+[68.833944] (-) TimerEvent: {}
+[68.934295] (-) TimerEvent: {}
+[69.034952] (-) TimerEvent: {}
+[69.135944] (-) TimerEvent: {}
+[69.236455] (-) TimerEvent: {}
+[69.246487] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[69.336601] (-) TimerEvent: {}
+[69.437309] (-) TimerEvent: {}
+[69.538466] (-) TimerEvent: {}
+[69.639622] (-) TimerEvent: {}
+[69.740599] (-) TimerEvent: {}
+[69.841651] (-) TimerEvent: {}
+[69.908503] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[69.936610] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[69.941776] (-) TimerEvent: {}
+[69.953380] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[69.988251] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[70.000282] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[70.035279] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[70.036287] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paolo/purple_whales_ws/build/micro_ros_agent'], 'cwd': '/home/paolo/purple_whales_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MESA_D3D12_DEFAULT_ADAPTER_NAME', 'NVIDIA'), ('GZ_SIM_RESOURCE_PATH', '/home/paolo/ros2_ws/install/minichallenges/share'), ('USER', 'paolo'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'wslview'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/paolo'), ('OLDPWD', '/home/paolo'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paolo/purple_whales_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paolo'), ('NAME', 'Zephyrus'), ('WSL_INTEROP', '/run/WSL/375_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Program Files/National Instruments/Shared/OpenVINO/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/ffmpeg-master-latest-win64-gpl/bin:/mnt/c/Users/paolo/anaconda3/envs/mathnimations/Scripts:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Scripts:/mnt/c/Program Files/node-v20.11.0-win-x64:/mnt/c/msys64/ucrt64/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/paolo/.espressif/tools/cmake/3.24.0/bin:/mnt/c/Program Files (x86)/gnuwin32/bin:/mnt/c/Users/paolo/.espressif/tools/ninja/1.11.1:/mnt/c/Users/paolo/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/mnt/c/Program Files (x86)/AVR/avrdude-v7.3-windows-x64:/mnt/c/Program Files (x86)/AVR/avr8-gnu-toolchain-win32_x86_64/bin:/mnt/c/Program Files (x86)/AVR/avrunner:/mnt/c/Program Files (x86)/CODESYS/APInstaller/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/paolo/anaconda3:/mnt/c/Users/paolo/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/paolo/anaconda3/Library/usr/bin:/mnt/c/Users/paolo/anaconda3/Library/bin:/mnt/c/Users/paolo/anaconda3/Scripts:/mnt/c/Users/paolo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/paolo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/paolo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/uaq_robot:/home/paolo/purple_whales_ws/install/micro_ros_setup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/paolo/purple_whales_ws/build/micro_ros_agent'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/paolo/purple_whales_ws/install/micro_ros_msgs:/home/paolo/purple_whales_ws/install/micro_ros_setup:/home/paolo/purple_whales_ws/install/uaq_robot:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[70.042016] (-) TimerEvent: {}
+[70.048600] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[70.049491] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[70.050109] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[70.050434] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[70.050935] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[70.051579] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[70.052038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[70.052501] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[70.052769] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[70.053407] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[70.053793] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[70.054100] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[70.054308] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[70.054560] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[70.054718] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[70.054889] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[70.055034] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[70.055182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[70.055977] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/paolo/purple_whales_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[70.056042] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[70.056213] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/paolo/purple_whales_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[70.057882] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[70.114117] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[70.117103] (-) EventReactorShutdown: {}

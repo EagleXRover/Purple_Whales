@@ -1,0 +1,10 @@
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/rcl_logging_interface_uninstall.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/rcl_logging_interface.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/test.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/edit_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/rebuild_cache.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/list_install_components.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/install.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/install/local.dir
+/home/paolo/purple_whales_ws/firmware/mcu_ws/build/rcl_logging_interface/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+[0.972s] Invoking command in '/home/paolo/purple_whales_ws/src/uaq_robot': PYTHONPATH=/home/paolo/purple_whales_ws/build/uaq_robot/prefix_override:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uaq_robot build --build-base /home/paolo/purple_whales_ws/build/uaq_robot/build install --record /home/paolo/purple_whales_ws/build/uaq_robot/install.log --single-version-externally-managed install_data
+[1.237s] running egg_info
+[1.239s] writing ../../build/uaq_robot/uaq_robot.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../build/uaq_robot/uaq_robot.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/uaq_robot/uaq_robot.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/uaq_robot/uaq_robot.egg-info/requires.txt
+[1.241s] writing top-level names to ../../build/uaq_robot/uaq_robot.egg-info/top_level.txt
+[1.246s] reading manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'
+[1.247s] adding license file 'LICENSE'
+[1.247s] writing manifest file '../../build/uaq_robot/uaq_robot.egg-info/SOURCES.txt'
+[1.247s] running build
+[1.247s] running build_py
+[1.248s] copying uaq_robot/simple_publisher.py -> /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot
+[1.248s] running install
+[1.249s] running install_lib
+[1.252s] copying /home/paolo/purple_whales_ws/build/uaq_robot/build/lib/uaq_robot/simple_publisher.py -> /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot
+[1.253s] byte-compiling /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.254s] running install_data
+[1.254s] running install_egg_info
+[1.258s] removing '/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.258s] Copying ../../build/uaq_robot/uaq_robot.egg-info to /home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages/uaq_robot-0.0.0-py3.10.egg-info
+[1.260s] running install_scripts
+[1.298s] Installing simple_publisher script to /home/paolo/purple_whales_ws/install/uaq_robot/lib/uaq_robot
+[1.300s] writing list of installed files to '/home/paolo/purple_whales_ws/build/uaq_robot/install.log'
+[1.391s] Invoked command in '/home/paolo/purple_whales_ws/src/uaq_robot' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/build/uaq_robot/prefix_override:/home/paolo/purple_whales_ws/install/uaq_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uaq_robot build --build-base /home/paolo/purple_whales_ws/build/uaq_robot/build install --record /home/paolo/purple_whales_ws/build/uaq_robot/install.log --single-version-externally-managed install_data

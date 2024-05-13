@@ -1,0 +1,35 @@
+[3.474s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed install_data
+[3.790s] running egg_info
+[3.794s] creating ../../../build/domain_coordinator/domain_coordinator.egg-info
+[3.795s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[3.796s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[3.797s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[3.797s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[3.797s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[3.801s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[3.803s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[3.804s] running build
+[3.804s] running build_py
+[3.804s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build
+[3.804s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib
+[3.804s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[3.805s] copying domain_coordinator/impl.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[3.805s] copying domain_coordinator/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[3.805s] running install
+[3.806s] running install_lib
+[3.808s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[3.808s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/impl.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[3.809s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[3.811s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/impl.py to impl.cpython-310.pyc
+[3.813s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/__init__.py to __init__.cpython-310.pyc
+[3.813s] running install_data
+[3.814s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/share/domain_coordinator
+[3.814s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index
+[3.814s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index
+[3.814s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[3.814s] copying resource/domain_coordinator -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[3.815s] running install_egg_info
+[3.822s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator-0.10.0-py3.10.egg-info
+[3.822s] running install_scripts
+[3.884s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/install.log'
+[4.054s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint PATH=/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/bin:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed install_data

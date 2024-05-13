@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/paolo/purple_whales_ws/firmware/mcu_ws/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

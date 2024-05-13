@@ -1,0 +1,116 @@
+[1.736s] Invoking command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_package': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[1.961s] running egg_info
+[1.962s] creating ../../build/ament_package/ament_package.egg-info
+[1.962s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[1.963s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[1.963s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[1.964s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.970s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.971s] adding license file 'LICENSE'
+[1.972s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[1.973s] running build
+[1.973s] running build_py
+[1.973s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build
+[1.974s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib
+[1.974s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.974s] copying ament_package/templates.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.974s] copying ament_package/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[1.975s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[1.975s] copying ament_package/template/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[1.975s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.977s] copying ament_package/template/package_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.979s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.979s] copying ament_package/template/prefix_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.979s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.979s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.979s] copying ament_package/template/environment_hook/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.979s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.980s] copying ament_package/template/isolated_prefix_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.980s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.981s] copying ament_package/template/environment_hook/library_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[1.982s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.983s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.983s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.983s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[1.983s] copying ament_package/template/package_level/local_setup.bash.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.983s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.983s] copying ament_package/template/package_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.983s] copying ament_package/template/package_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[1.983s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/local_setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.983s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.984s] copying ament_package/template/prefix_level/setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[1.984s] running install
+[1.985s] running install_lib
+[1.986s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[1.987s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[1.987s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[1.987s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[1.988s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.988s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.988s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.988s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.988s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.989s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[1.989s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[1.991s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.991s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.992s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.992s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[1.993s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/__init__.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] copying /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[1.993s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/templates.py to templates.cpython-310.pyc
+[1.993s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/__init__.py to __init__.cpython-310.pyc
+[1.994s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-310.pyc
+[1.994s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-310.pyc
+[1.995s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-310.pyc
+[1.998s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-310.pyc
+[1.998s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/__init__.py to __init__.cpython-310.pyc
+[1.999s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/__init__.py to __init__.cpython-310.pyc
+[1.999s] byte-compiling /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-310.pyc
+[1.999s] running install_data
+[2.000s] copying package.xml -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/share/ament_package
+[2.000s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/share/ament_index
+[2.000s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[2.001s] creating /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.001s] copying resource/ament_package -> /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[2.001s] running install_egg_info
+[2.004s] Copying ../../build/ament_package/ament_package.egg-info to /home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package-0.14.0-py3.10.egg-info
+[2.005s] running install_scripts
+[2.043s] writing list of installed files to '/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/install.log'
+[2.179s] Invoked command in '/home/paolo/purple_whales_ws/firmware/dev_ws/ament/ament_package' returned '0': PYTHONPATH=/home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/prefix_override:/home/paolo/purple_whales_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/build install --record /home/paolo/purple_whales_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data
