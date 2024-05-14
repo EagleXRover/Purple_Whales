@@ -143,8 +143,8 @@ CMakeFiles/test_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/test_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/test_msgs.dir/all: CMakeFiles/test_msgs__rosidl_generator_c.dir/all
 CMakeFiles/test_msgs.dir/all: CMakeFiles/test_msgs__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/test_msgs.dir/all: CMakeFiles/test_msgs__rosidl_generator_c.dir/all
 CMakeFiles/test_msgs.dir/all: CMakeFiles/test_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 CMakeFiles/test_msgs.dir/all: CMakeFiles/test_msgs__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_msgs.dir/build.make CMakeFiles/test_msgs.dir/depend

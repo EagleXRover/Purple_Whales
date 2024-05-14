@@ -143,10 +143,10 @@ CMakeFiles/std_srvs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/std_srvs.dir
 
 # All Build rule for target.
-CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_typesupport_c.dir/all
-CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_generator_c.dir/all
 CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_typesupport_c.dir/all
 CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_typesupport_microxrcedds_c.dir/all
+CMakeFiles/std_srvs.dir/all: CMakeFiles/std_srvs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_srvs.dir/build.make CMakeFiles/std_srvs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/std_srvs.dir/build.make CMakeFiles/std_srvs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/std_srvs/CMakeFiles --progress-num= "Built target std_srvs"

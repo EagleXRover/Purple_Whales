@@ -143,10 +143,10 @@ CMakeFiles/micro_ros_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/micro_ros_msgs.dir
 
 # All Build rule for target.
+CMakeFiles/micro_ros_msgs.dir/all: CMakeFiles/micro_ros_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 CMakeFiles/micro_ros_msgs.dir/all: CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/micro_ros_msgs.dir/all: CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/all
 CMakeFiles/micro_ros_msgs.dir/all: CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/all
-CMakeFiles/micro_ros_msgs.dir/all: CMakeFiles/micro_ros_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/micro_ros_msgs.dir/build.make CMakeFiles/micro_ros_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/micro_ros_msgs.dir/build.make CMakeFiles/micro_ros_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/micro_ros_msgs/CMakeFiles --progress-num= "Built target micro_ros_msgs"

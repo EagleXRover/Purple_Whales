@@ -143,9 +143,9 @@ CMakeFiles/nav_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/nav_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/all
-CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_generator_c.dir/all
+CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_typesupport_microxrcedds_c.dir/all
 CMakeFiles/nav_msgs.dir/all: CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav_msgs.dir/build.make CMakeFiles/nav_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav_msgs.dir/build.make CMakeFiles/nav_msgs.dir/build

@@ -143,9 +143,9 @@ CMakeFiles/rcl_interfaces_uninstall.dir/clean:
 # Target rules for target CMakeFiles/rcl_interfaces.dir
 
 # All Build rule for target.
-CMakeFiles/rcl_interfaces.dir/all: CMakeFiles/rcl_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/rcl_interfaces.dir/all: CMakeFiles/rcl_interfaces__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/rcl_interfaces.dir/all: CMakeFiles/rcl_interfaces__rosidl_typesupport_microxrcedds_c.dir/all
+CMakeFiles/rcl_interfaces.dir/all: CMakeFiles/rcl_interfaces__rosidl_generator_c.dir/all
 CMakeFiles/rcl_interfaces.dir/all: CMakeFiles/rcl_interfaces__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rcl_interfaces.dir/build.make CMakeFiles/rcl_interfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rcl_interfaces.dir/build.make CMakeFiles/rcl_interfaces.dir/build

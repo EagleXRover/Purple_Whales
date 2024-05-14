@@ -7,15 +7,24 @@
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "driver/uart.h"
+
+#include "car.h"
+
+#include "constants.h"
 
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Aborting.\n",__LINE__,(int)temp_rc); vTaskDelete(NULL);}}
+#define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){printf("Failed status on line %d: %d. Continuing.\n",__LINE__,(int)temp_rc);}}
 
 rcl_subscription_t subscriber;
 ackermann_msgs__msg__AckermannMessage vel_msg;
 
+Car car(CAR_CONSTANTS::WHEEL_RADIUS, CAR_CONSTANTS::GEAR_RATIO);
+
 void vel_callback(const void * msgin);
 
 extern "C" void appMain(void * argument) {
+	car.enable();
 	rcl_allocator_t allocator = rcl_get_default_allocator();
 	rclc_support_t support;
 
@@ -49,7 +58,7 @@ extern "C" void appMain(void * argument) {
 }
 
 void vel_callback(const void * msgin) {
-    const ackermann_msgs__msg__AckermannMessage * msg = (const ackermann_msgs__msg__AckermannMessage *)msgin;
-    printf("Received: %f\n", msg->linear_velocity);
-    printf("Received: %f\n", msg->steering_angle);
+	ackermann_msgs__msg__AckermannMessage * msg = (ackermann_msgs__msg__AckermannMessage *)msgin;
+    car.set_linear_speed(msg->linear_velocity);
+	//car.set_steering_angle(msg->steering_angle);
 }

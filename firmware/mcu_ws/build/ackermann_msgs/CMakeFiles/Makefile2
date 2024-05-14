@@ -144,9 +144,9 @@ CMakeFiles/ackermann_msgs_uninstall.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/ackermann_msgs.dir/all: CMakeFiles/ackermann_msgs__rosidl_generator_c.dir/all
-CMakeFiles/ackermann_msgs.dir/all: CMakeFiles/ackermann_msgs__rosidl_typesupport_c.dir/all
 CMakeFiles/ackermann_msgs.dir/all: CMakeFiles/ackermann_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/ackermann_msgs.dir/all: CMakeFiles/ackermann_msgs__rosidl_typesupport_microxrcedds_c.dir/all
+CMakeFiles/ackermann_msgs.dir/all: CMakeFiles/ackermann_msgs__rosidl_typesupport_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ackermann_msgs.dir/build.make CMakeFiles/ackermann_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ackermann_msgs.dir/build.make CMakeFiles/ackermann_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/paolo/purple_whales_ws/firmware/mcu_ws/build/ackermann_msgs/CMakeFiles --progress-num= "Built target ackermann_msgs"
