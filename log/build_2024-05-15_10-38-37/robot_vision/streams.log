@@ -1,0 +1,24 @@
+[1.635s] Invoking command in '/home/lpm/Purple_Whales/src/robot_vision': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data
+[2.209s] running egg_info
+[2.210s] writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+[2.215s] writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+[2.215s] writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+[2.216s] writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+[2.216s] writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+[2.222s] reading manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[2.223s] writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[2.224s] running build
+[2.224s] running build_py
+[2.224s] copying robot_vision/line_follower.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+[2.226s] running install
+[2.226s] running install_lib
+[2.228s] copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/line_follower.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+[2.230s] byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/line_follower.py to line_follower.cpython-310.pyc
+[2.233s] running install_data
+[2.235s] running install_egg_info
+[2.239s] removing '/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info' (and everything under it)
+[2.240s] Copying ../../build/robot_vision/robot_vision.egg-info to /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info
+[2.242s] running install_scripts
+[2.281s] Installing line_follower script to /home/lpm/Purple_Whales/install/robot_vision/lib/robot_vision
+[2.282s] writing list of installed files to '/home/lpm/Purple_Whales/build/robot_vision/install.log'
+[2.327s] Invoked command in '/home/lpm/Purple_Whales/src/robot_vision' returned '0': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data

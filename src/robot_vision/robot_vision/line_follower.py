@@ -12,7 +12,7 @@ class LineFollower(Node):
         super().__init__('line_follower')
         self.bridge = CvBridge()
 
-        self.subscription = self.create_subscription(Image,'/camera/image_raw',self.camera_callback,10)
+        self.subscription = self.create_subscription(Image,'image_raw',self.camera_callback,10)
         
         self.pub = self.create_publisher(Image, '/line_image', 10)
         self.pub2 = self.create_publisher(Image, '/wraped', 10)
@@ -31,7 +31,6 @@ class LineFollower(Node):
             self.recieved_flag = True
         except:
             self.get_logger().info('Error in converting image')
-            self.recieved_flag = False
 
     def timer_callback(self):
         if self.recieved_flag:
@@ -81,6 +80,7 @@ class LineFollower(Node):
             self.pub.publish(self.bridge.cv2_to_imgmsg(result, 'bgr8'))
             self.pub2.publish(self.bridge.cv2_to_imgmsg(warped, 'bgr8'))
             self.pub3.publish(self.bridge.cv2_to_imgmsg(frame, 'bgr8'))
+            self.recieved_flag = False
     
 
 def main():
