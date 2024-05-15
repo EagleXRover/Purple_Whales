@@ -1,0 +1,11 @@
+[1.946s] Invoking command in '/home/lpm/Purple_Whales/src/robot_vision': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data
+[2.635s] running egg_info
+[2.637s] creating ../../build/robot_vision/robot_vision.egg-info
+[2.638s] writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+[2.640s] writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+[2.640s] writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+[2.640s] writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+[2.640s] writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+[2.641s] writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[2.644s] error: package directory 'robotic_vision/submodules' does not exist
+[2.681s] Invoked command in '/home/lpm/Purple_Whales/src/robot_vision' returned '1': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data

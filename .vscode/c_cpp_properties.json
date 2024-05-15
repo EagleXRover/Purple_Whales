@@ -1,0 +1,54 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lpm/Purple_Whales/install/micro_ros_agent/include/**",
+        "/home/lpm/Purple_Whales/install/micro_ros_msgs/include/**",
+        "/home/lpm/Purple_Whales/install/ackermann_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/visualization_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/test_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/example_interfaces/include/**",
+        "/home/lpm/ros2_utilities_ws/install/action_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/unique_identifier_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/trajectory_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/stereo_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/std_srvs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/shape_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/sensor_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/nav_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/diagnostic_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/geometry_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/actionlib_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/std_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/statistics_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rmw_microxrcedds/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rosidl_typesupport_microxrcedds_cpp/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rosidl_typesupport_microxrcedds_c/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rosgraph_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rclc_parameter/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rclc/include/**",
+        "/home/lpm/ros2_utilities_ws/install/composition_interfaces/include/**",
+        "/home/lpm/ros2_utilities_ws/install/rcl_interfaces/include/**",
+        "/home/lpm/ros2_utilities_ws/install/micro_ros_utilities/include/**",
+        "/home/lpm/ros2_utilities_ws/install/micro_ros_agent/include/**",
+        "/home/lpm/ros2_utilities_ws/install/micro_ros_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/lifecycle_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/complex_msgs/include/**",
+        "/home/lpm/ros2_utilities_ws/install/builtin_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

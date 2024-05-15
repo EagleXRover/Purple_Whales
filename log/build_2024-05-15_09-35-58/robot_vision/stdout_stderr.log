@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+reading manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_vision/submodules/__init__.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+running install
+running install_lib
+copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules/__init__.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/line_follower.py to line_follower.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after function definition on line 11 (line_follower.py, line 11)
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_vision/robot_vision.egg-info to /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_follower script to /home/lpm/Purple_Whales/install/robot_vision/lib/robot_vision
+writing list of installed files to '/home/lpm/Purple_Whales/build/robot_vision/install.log'

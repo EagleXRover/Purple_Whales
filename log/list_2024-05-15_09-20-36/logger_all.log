@@ -1,0 +1,197 @@
+[1.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/lpm/Purple_Whales']
+[1.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/lpm/Purple_Whales'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74f4a4e4a2f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x74f4a4e49030>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x74f4a4e49030>>, mixin_verb=('list',))
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.927s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.927s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lpm/Purple_Whales'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['ignore', 'ignore_ament_install']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'ignore'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'ignore_ament_install'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['colcon_pkg']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'colcon_pkg'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['colcon_meta']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'colcon_meta'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['ros']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'ros'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['cmake', 'python']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'cmake'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'python'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extensions ['python_setup_py']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales) by extension 'python_setup_py'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['ignore', 'ignore_ament_install']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'ignore'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'ignore_ament_install'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['colcon_pkg']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'colcon_pkg'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['colcon_meta']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'colcon_meta'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['ros']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'ros'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['cmake', 'python']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'cmake'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'python'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extensions ['python_setup_py']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/__assets) by extension 'python_setup_py'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/build) by extensions ['ignore', 'ignore_ament_install']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/build) by extension 'ignore'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/build) ignored
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/firmware) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/firmware) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/firmware) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/install) by extensions ['ignore', 'ignore_ament_install']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/install) by extension 'ignore'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/install) ignored
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['ignore', 'ignore_ament_install']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'ignore'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'ignore_ament_install'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['colcon_pkg']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'colcon_pkg'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['colcon_meta']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'colcon_meta'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['ros']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'ros'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['cmake', 'python']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'cmake'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'python'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extensions ['python_setup_py']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/line_tracker) by extension 'python_setup_py'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/log) by extensions ['ignore', 'ignore_ament_install']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/log) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/log) ignored
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'ros'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['cmake', 'python']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'cmake'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extensions ['python_setup_py']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src) by extension 'python_setup_py'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extension 'ignore_ament_install'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extensions ['colcon_pkg']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extension 'colcon_pkg'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extensions ['colcon_meta']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extension 'colcon_meta'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extensions ['ros']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/ackermann_msgs) by extension 'ros'
+[1.985s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lpm/Purple_Whales/src/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extension 'colcon_pkg'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extensions ['colcon_meta']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extensions ['ros']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/micro_ros_setup) by extension 'ros'
+[1.990s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lpm/Purple_Whales/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extension 'ignore'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extension 'ignore_ament_install'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extensions ['colcon_pkg']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extension 'colcon_pkg'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extensions ['colcon_meta']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extension 'colcon_meta'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extensions ['ros']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uaq_robot) by extension 'ros'
+[1.994s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lpm/Purple_Whales/src/uaq_robot' with type 'ros.ament_python' and name 'uaq_robot'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'ignore'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'ignore_ament_install'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['colcon_pkg']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'colcon_pkg'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['colcon_meta']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'colcon_meta'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['ros']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'ros'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['cmake', 'python']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'cmake'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'python'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extensions ['python_setup_py']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros) by extension 'python_setup_py'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'ros'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'python'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[2.003s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extension 'ignore'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extensions ['ros']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/lpm/Purple_Whales/src/uros/micro_ros_msgs) by extension 'ros'
+[2.015s] DEBUG:colcon.colcon_core.package_identification:Package '/home/lpm/Purple_Whales/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

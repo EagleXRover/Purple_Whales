@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (ackermann_msgs) JobQueued: {'identifier': 'ackermann_msgs', 'dependencies': OrderedDict()}
+[0.001293] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001382] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001433] (robot_vision) JobQueued: {'identifier': 'robot_vision', 'dependencies': OrderedDict()}
+[0.001495] (uaq_robot) JobQueued: {'identifier': 'uaq_robot', 'dependencies': OrderedDict()}
+[0.001547] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/lpm/Purple_Whales/install/micro_ros_msgs')])}
+[0.001600] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.034366] (ackermann_msgs) JobStarted: {'identifier': 'ackermann_msgs'}
+[0.060998] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.090537] (robot_vision) JobStarted: {'identifier': 'robot_vision'}
+[0.099800] (-) TimerEvent: {}
+[0.110865] (robot_vision) JobEnded: {'identifier': 'robot_vision', 'rc': 0}
+[0.113538] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 'SIGINT'}
+[0.114650] (ackermann_msgs) JobEnded: {'identifier': 'ackermann_msgs', 'rc': 'SIGINT'}
+[0.116112] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 'SIGINT'}
+[0.119448] (uaq_robot) JobSkipped: {'identifier': 'uaq_robot'}
+[0.119562] (micro_ros_agent) JobSkipped: {'identifier': 'micro_ros_agent'}
+[0.119639] (-) EventReactorShutdown: {}

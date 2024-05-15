@@ -1,0 +1,41 @@
+running egg_info
+writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+reading manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lpm/Purple_Whales/build/robot_vision/build
+creating /home/lpm/Purple_Whales/build/robot_vision/build/lib
+creating /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+copying robot_vision/__init__.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+copying robot_vision/line_follower.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+creating /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+copying robot_vision/submodules/functions.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+copying robot_vision/submodules/line_class.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+running install
+running install_lib
+creating /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/__init__.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/line_follower.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+creating /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules/functions.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules/line_class.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/line_follower.py to line_follower.cpython-310.pyc
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules/functions.py to functions.cpython-310.pyc
+byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules/line_class.py to line_class.cpython-310.pyc
+running install_data
+creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index
+creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index
+creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index/packages
+copying resource/robot_vision -> /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index/packages
+copying package.xml -> /home/lpm/Purple_Whales/install/robot_vision/share/robot_vision
+running install_egg_info
+Copying ../../build/robot_vision/robot_vision.egg-info to /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_follower script to /home/lpm/Purple_Whales/install/robot_vision/lib/robot_vision
+writing list of installed files to '/home/lpm/Purple_Whales/build/robot_vision/install.log'

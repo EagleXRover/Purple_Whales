@@ -1,0 +1,45 @@
+[1.603s] Invoking command in '/home/lpm/Purple_Whales/src/robot_vision': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data
+[2.270s] running egg_info
+[2.272s] writing ../../build/robot_vision/robot_vision.egg-info/PKG-INFO
+[2.273s] writing dependency_links to ../../build/robot_vision/robot_vision.egg-info/dependency_links.txt
+[2.273s] writing entry points to ../../build/robot_vision/robot_vision.egg-info/entry_points.txt
+[2.273s] writing requirements to ../../build/robot_vision/robot_vision.egg-info/requires.txt
+[2.273s] writing top-level names to ../../build/robot_vision/robot_vision.egg-info/top_level.txt
+[2.278s] package init file 'robot_vision/submodules/__init__.py' not found (or not a regular file)
+[2.279s] reading manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[2.281s] writing manifest file '../../build/robot_vision/robot_vision.egg-info/SOURCES.txt'
+[2.281s] running build
+[2.282s] running build_py
+[2.282s] creating /home/lpm/Purple_Whales/build/robot_vision/build
+[2.282s] creating /home/lpm/Purple_Whales/build/robot_vision/build/lib
+[2.282s] creating /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+[2.283s] copying robot_vision/__init__.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+[2.283s] copying robot_vision/line_follower.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision
+[2.283s] creating /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+[2.283s] copying robot_vision/submodules/functions.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+[2.284s] copying robot_vision/submodules/line_class.py -> /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules
+[2.285s] running install
+[2.286s] running install_lib
+[2.287s] creating /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+[2.288s] copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/__init__.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+[2.288s] copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/line_follower.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision
+[2.288s] creating /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+[2.288s] copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules/functions.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+[2.289s] copying /home/lpm/Purple_Whales/build/robot_vision/build/lib/robot_vision/submodules/line_class.py -> /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules
+[2.291s] byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/__init__.py to __init__.cpython-310.pyc
+[2.291s] byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/line_follower.py to line_follower.cpython-310.pyc
+[2.292s] Sorry: IndentationError: expected an indented block after function definition on line 11 (line_follower.py, line 11)
+[2.292s] byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules/functions.py to functions.cpython-310.pyc
+[2.294s] byte-compiling /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision/submodules/line_class.py to line_class.cpython-310.pyc
+[2.297s] running install_data
+[2.297s] creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index
+[2.297s] creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index
+[2.298s] creating /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index/packages
+[2.298s] copying resource/robot_vision -> /home/lpm/Purple_Whales/install/robot_vision/share/ament_index/resource_index/packages
+[2.298s] copying package.xml -> /home/lpm/Purple_Whales/install/robot_vision/share/robot_vision
+[2.298s] running install_egg_info
+[2.303s] Copying ../../build/robot_vision/robot_vision.egg-info to /home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages/robot_vision-0.0.0-py3.10.egg-info
+[2.305s] running install_scripts
+[2.370s] Installing line_follower script to /home/lpm/Purple_Whales/install/robot_vision/lib/robot_vision
+[2.371s] writing list of installed files to '/home/lpm/Purple_Whales/build/robot_vision/install.log'
+[2.435s] Invoked command in '/home/lpm/Purple_Whales/src/robot_vision' returned '0': PYTHONPATH=/home/lpm/Purple_Whales/build/robot_vision/prefix_override:/home/lpm/Purple_Whales/install/robot_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_vision build --build-base /home/lpm/Purple_Whales/build/robot_vision/build install --record /home/lpm/Purple_Whales/build/robot_vision/install.log --single-version-externally-managed install_data
