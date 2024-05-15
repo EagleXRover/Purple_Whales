@@ -25,6 +25,7 @@ void vel_callback(const void * msgin);
 
 extern "C" void appMain(void * argument) {
 	car.enable();
+	car.set_steering_angle(0);
 	rcl_allocator_t allocator = rcl_get_default_allocator();
 	rclc_support_t support;
 
@@ -60,5 +61,5 @@ extern "C" void appMain(void * argument) {
 void vel_callback(const void * msgin) {
 	ackermann_msgs__msg__AckermannMessage * msg = (ackermann_msgs__msg__AckermannMessage *)msgin;
     car.set_linear_speed(msg->linear_velocity);
-	//car.set_steering_angle(msg->steering_angle);
+	car.set_steering_angle(msg->steering_angle);
 }
