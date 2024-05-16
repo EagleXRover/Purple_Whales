@@ -14,7 +14,7 @@
     namespace RS232_CONSTANTS {
         const int BAUDRATE = 9600;
         const int BUF_SIZE = 128;
-        const int TX       = 18;
-        const int RX       = 19;
+        const int TX       = 19;
+        const int RX       = 18;
     }
 #endif
