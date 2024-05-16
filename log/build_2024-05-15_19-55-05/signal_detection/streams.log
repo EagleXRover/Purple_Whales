@@ -1,0 +1,25 @@
+[1.478s] Invoking command in '/home/lpm/Purple_Whales/src/signal_detection': PYTHONPATH=/home/lpm/Purple_Whales/build/signal_detection/prefix_override:/home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/signal_detection build --build-base /home/lpm/Purple_Whales/build/signal_detection/build install --record /home/lpm/Purple_Whales/build/signal_detection/install.log --single-version-externally-managed install_data
+[2.016s] running egg_info
+[2.018s] writing ../../build/signal_detection/signal_detection.egg-info/PKG-INFO
+[2.022s] writing dependency_links to ../../build/signal_detection/signal_detection.egg-info/dependency_links.txt
+[2.023s] writing entry points to ../../build/signal_detection/signal_detection.egg-info/entry_points.txt
+[2.023s] writing requirements to ../../build/signal_detection/signal_detection.egg-info/requires.txt
+[2.023s] writing top-level names to ../../build/signal_detection/signal_detection.egg-info/top_level.txt
+[2.027s] reading manifest file '../../build/signal_detection/signal_detection.egg-info/SOURCES.txt'
+[2.028s] adding license file 'LICENSE'
+[2.029s] writing manifest file '../../build/signal_detection/signal_detection.egg-info/SOURCES.txt'
+[2.029s] running build
+[2.030s] running build_py
+[2.030s] copying signal_detection/aruco.py -> /home/lpm/Purple_Whales/build/signal_detection/build/lib/signal_detection
+[2.031s] running install
+[2.031s] running install_lib
+[2.034s] copying /home/lpm/Purple_Whales/build/signal_detection/build/lib/signal_detection/aruco.py -> /home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages/signal_detection
+[2.036s] byte-compiling /home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages/signal_detection/aruco.py to aruco.cpython-310.pyc
+[2.037s] running install_data
+[2.039s] running install_egg_info
+[2.042s] removing '/home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages/signal_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.042s] Copying ../../build/signal_detection/signal_detection.egg-info to /home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages/signal_detection-0.0.0-py3.10.egg-info
+[2.044s] running install_scripts
+[2.078s] Installing aruco script to /home/lpm/Purple_Whales/install/signal_detection/lib/signal_detection
+[2.080s] writing list of installed files to '/home/lpm/Purple_Whales/build/signal_detection/install.log'
+[2.125s] Invoked command in '/home/lpm/Purple_Whales/src/signal_detection' returned '0': PYTHONPATH=/home/lpm/Purple_Whales/build/signal_detection/prefix_override:/home/lpm/Purple_Whales/install/signal_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/signal_detection build --build-base /home/lpm/Purple_Whales/build/signal_detection/build install --record /home/lpm/Purple_Whales/build/signal_detection/install.log --single-version-externally-managed install_data

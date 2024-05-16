@@ -1,0 +1,3 @@
+[console_scripts]
+aruco = signal_detection.aruco:main
+

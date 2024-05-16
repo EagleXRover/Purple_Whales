@@ -1,0 +1,6 @@
+[0.100s] Invoking command in '/home/lpm/Purple_Whales/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lpm/ros2_utilities_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/lpm/Purple_Whales/build/micro_ros_setup -- -j4 -l4
+[0.212s] [0mCMake Error: The current CMakeCache.txt directory /home/lpm/Purple_Whales/build/micro_ros_setup/CMakeCache.txt is different than the directory /home/paolo/purple_whales_ws/build/micro_ros_setup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.288s] [0mCMake Error: The source directory "/home/paolo/purple_whales_ws/src/micro_ros_setup" does not exist.
+[0.288s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.313s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.945s] Invoked command in '/home/lpm/Purple_Whales/build/micro_ros_setup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lpm/ros2_utilities_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/lpm/Purple_Whales/build/micro_ros_setup -- -j4 -l4

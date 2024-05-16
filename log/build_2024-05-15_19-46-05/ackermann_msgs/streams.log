@@ -1,0 +1,6 @@
+[0.097s] Invoking command in '/home/lpm/Purple_Whales/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lpm/ros2_utilities_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/lpm/Purple_Whales/build/ackermann_msgs -- -j4 -l4
+[0.231s] [0mCMake Error: The current CMakeCache.txt directory /home/lpm/Purple_Whales/build/ackermann_msgs/CMakeCache.txt is different than the directory /home/paolo/purple_whales_ws/build/ackermann_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.315s] [0mCMake Error: The source directory "/home/paolo/purple_whales_ws/src/ackermann_msgs" does not exist.
+[0.315s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.326s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.959s] Invoked command in '/home/lpm/Purple_Whales/build/ackermann_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lpm/ros2_utilities_ws/install/sensor_msgs_py:/opt/ros/humble /usr/bin/cmake --build /home/lpm/Purple_Whales/build/ackermann_msgs -- -j4 -l4
