@@ -6,19 +6,30 @@ import cv2
 import numpy as np
 from .submodules.functions import *
 from .submodules.line_class import Line
-
+from ackermann_msgs.msg import AckermannMessage
+from std_msgs.msg import Int8, Bool
 class LineFollower(Node):
     def __init__(self):
         super().__init__('line_follower')
         self.bridge = CvBridge()
 
+        self.ready_subscription = self.create_subscription(Bool, 'ready', self.ready_callback, 10)
         self.subscription = self.create_subscription(Image,'image_raw',self.camera_callback,10)
-        
+
+        self.color_pub = self.create_publisher(Int8, 'rainbow_led', 10)
         self.pub = self.create_publisher(Image, '/line_image', 10)
         self.pub2 = self.create_publisher(Image, '/wraped', 10)
         self.pub3 = self.create_publisher(Image, '/original_frame', 10)
+        self.control_pub = self.create_publisher(AckermannMessage, 'cmd_vel', 10)
+
+        self.control_msg = AckermannMessage() 
 
         self.recieved_flag = False
+
+        self.ready_for_operation = False
+
+        # Prooportional gain for the steering error
+        self.Kc = 0.5
 
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.timer_callback)
@@ -31,6 +42,9 @@ class LineFollower(Node):
             self.recieved_flag = True
         except:
             self.get_logger().info('Error in converting image')
+
+    def ready_callback(self, msg):
+        self.ready_for_operation = msg.data
 
     def timer_callback(self):
         if self.recieved_flag:
@@ -76,6 +90,21 @@ class LineFollower(Node):
             cv2.putText(frame, f'Line Error: {center}', (10, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
 
             result = cv2.addWeighted(frame, 1, final, 0.5, 0)
+
+            color = Int8()
+
+
+            if self.ready_for_operation:
+                self.control_msg.linear_velocity = 1.0
+                self.control_msg.steering_angle =  self.Kc * center
+                color.data = 0
+                self.color_pub.publish(color)
+
+            else:
+                color.data = 1
+                self.control_msg.linear_velocity = 0.0
+                self.control_msg.steering_angle = 0.0
+                self.color_pub.publish(color)
 
             self.pub.publish(self.bridge.cv2_to_imgmsg(result, 'bgr8'))
             self.pub2.publish(self.bridge.cv2_to_imgmsg(warped, 'bgr8'))
