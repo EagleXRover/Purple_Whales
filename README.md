@@ -15,6 +15,9 @@ This is for the Robotics competition "RoboUAQ 2024", held in Querétaro, México
 - Ricardo Navarro
 
 ## Colaborators
-- Sebastian
+- Pepe
 
 - Tomas
+
+## 3rd Place Winners
+![Trophy](__assets/trophy.jpeg)
